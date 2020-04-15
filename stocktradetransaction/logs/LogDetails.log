@@ -1,0 +1,34 @@
+2020-01-02 10:15:45 DEBUG TestStockTradeDAOFactorySQL:40  - Testing testTotalRowsFetched() method 
+2020-01-02 10:15:45 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:15:45 DEBUG StockTradeDAOSQLImpl:246 - Reading database data as List
+2020-01-02 10:15:45 DEBUG DBUtils         :66  - INITIALIZING DATABASE PROPERTIES
+2020-01-02 10:15:45 DEBUG StockTradeDAOSQLImpl:248 - Connection info : jdbc:mysql://localhost:3306/mysqljdbc, UserName=root@localhost, MySQL Connector/J
+2020-01-02 10:15:46 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:15:46 DEBUG TestStockTradeDAOFactorySQL:65  - Testing inserting data : NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-01-02 10:15:46 DEBUG StockTradeDAOSQLImpl:67  - Inserting data : NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-01-02 10:15:46 DEBUG TestStockTradeDAOFactorySQL:77  - Testing updating data.
+2020-01-02 10:15:46 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:15:46 DEBUG StockTradeDAOSQLImpl:157 - Updating security for tradeId: 482
+2020-01-02 10:15:46 DEBUG TestStockTradeDAOFactorySQL:91  - Test deleting data.
+2020-01-02 10:15:46 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:15:46 DEBUG StockTradeDAOSQLImpl:203 - Deleting entry for tradeId :482
+2020-01-02 10:15:46 DEBUG TestStockTradeDAOFactorySQL:104 - Testing read by specific id.
+2020-01-02 10:15:46 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:15:46 DEBUG StockTradeDAOSQLImpl:118 - Reading DB for trade ID 123
+2020-01-02 10:58:11 DEBUG TestStockTradeDAOFactorySQL:36  - Testing testTotalRowsFetched() method 
+2020-01-02 10:58:11 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:58:11 DEBUG StockTradeDAOSQLImpl:249 - Reading database data as List
+2020-01-02 10:58:11 DEBUG DBUtils         :66  - INITIALIZING DATABASE PROPERTIES
+2020-01-02 10:58:12 DEBUG StockTradeDAOSQLImpl:251 - Connection info : jdbc:mysql://localhost:3306/mysqljdbc, UserName=root@localhost, MySQL Connector/J
+2020-01-02 10:58:12 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:58:12 DEBUG TestStockTradeDAOFactorySQL:61  - Testing inserting data : NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-01-02 10:58:12 DEBUG StockTradeDAOSQLImpl:67  - Inserting data : NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-01-02 10:58:12 DEBUG TestStockTradeDAOFactorySQL:73  - Testing updating data.
+2020-01-02 10:58:12 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:58:12 DEBUG StockTradeDAOSQLImpl:160 - Updating security for tradeId: 482
+2020-01-02 10:58:12 DEBUG TestStockTradeDAOFactorySQL:87  - Test deleting data.
+2020-01-02 10:58:12 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:58:12 DEBUG StockTradeDAOSQLImpl:206 - Deleting entry for tradeId :482
+2020-01-02 10:58:12 DEBUG TestStockTradeDAOFactorySQL:100 - Testing read by specific id.
+2020-01-02 10:58:12 DEBUG StockTradeDAOFactory:65  - Returing instance of sql
+2020-01-02 10:58:12 DEBUG StockTradeDAOSQLImpl:121 - Reading DB for trade ID 123

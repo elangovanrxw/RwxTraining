@@ -1,0 +1,1439 @@
+2020-02-26 19:14:58 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 19:14:58 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 19:14:58 DEBUG TestStockTradeDAOFactorySQL:49  - Testing testTotalRowsFetched() method 
+2020-02-26 19:14:58 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 19:15:00 DEBUG TestStockTradeDAOFactorySQL:73  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:15:00 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:15:00 DEBUG TestStockTradeDAOFactorySQL:83  - Testing updating data.
+2020-02-26 19:15:00 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 19:15:00 DEBUG TestStockTradeDAOFactorySQL:95  - Test deleting data.
+2020-02-26 19:15:00 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 19:15:00 DEBUG TestStockTradeDAOFactorySQL:109 - Testing read by specific id.
+2020-02-26 19:15:00 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 19:15:00 DEBUG TestStockTradeDAOFactorySQL:124 - Testing batch operations function...
+2020-02-26 19:15:00 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 19:15:01 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 19:15:42 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 19:15:42 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 19:15:42 DEBUG TestStockTradeDAOFactorySQL:49  - Testing testTotalRowsFetched() method 
+2020-02-26 19:15:42 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 19:15:43 DEBUG TestStockTradeDAOFactorySQL:73  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:15:43 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:15:44 DEBUG TestStockTradeDAOFactorySQL:83  - Testing updating data.
+2020-02-26 19:15:44 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 19:15:44 DEBUG TestStockTradeDAOFactorySQL:95  - Test deleting data.
+2020-02-26 19:15:44 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 19:15:44 DEBUG TestStockTradeDAOFactorySQL:109 - Testing read by specific id.
+2020-02-26 19:15:44 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 19:15:44 DEBUG TestStockTradeDAOFactorySQL:124 - Testing batch operations function...
+2020-02-26 19:15:44 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 19:15:44 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 19:19:56 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 19:19:56 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 19:19:56 DEBUG TestStockTradeDAOFactorySQL:49  - Testing testTotalRowsFetched() method 
+2020-02-26 19:19:56 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 19:19:57 DEBUG TestStockTradeDAOFactorySQL:73  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:19:57 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:19:57 DEBUG TestStockTradeDAOFactorySQL:83  - Testing updating data.
+2020-02-26 19:19:57 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 19:19:57 DEBUG TestStockTradeDAOFactorySQL:95  - Test deleting data.
+2020-02-26 19:19:57 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 19:19:57 DEBUG TestStockTradeDAOFactorySQL:109 - Testing read by specific id.
+2020-02-26 19:19:57 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 19:19:57 DEBUG TestStockTradeDAOFactorySQL:124 - Testing batch operations function...
+2020-02-26 19:19:57 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 19:19:57 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 19:26:26 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 19:26:26 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 19:26:26 DEBUG TestStockTradeDAOFactorySQL:49  - Testing testTotalRowsFetched() method 
+2020-02-26 19:26:26 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 19:26:27 DEBUG TestStockTradeDAOFactorySQL:73  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:26:27 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 19:26:27 DEBUG TestStockTradeDAOFactorySQL:83  - Testing updating data.
+2020-02-26 19:26:27 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 19:26:27 DEBUG TestStockTradeDAOFactorySQL:95  - Test deleting data.
+2020-02-26 19:26:27 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 19:26:27 DEBUG TestStockTradeDAOFactorySQL:109 - Testing read by specific id.
+2020-02-26 19:26:27 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 19:26:27 DEBUG TestStockTradeDAOFactorySQL:124 - Testing batch operations function...
+2020-02-26 19:26:27 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 19:26:28 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 21:26:35 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 21:26:35 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 21:26:35 DEBUG TestStockTradeDAOFactorySQL:49  - Testing testTotalRowsFetched() method 
+2020-02-26 21:26:35 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 21:26:36 DEBUG TestStockTradeDAOFactorySQL:73  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 21:26:36 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 21:26:37 DEBUG TestStockTradeDAOFactorySQL:83  - Testing updating data.
+2020-02-26 21:26:37 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 21:26:37 DEBUG TestStockTradeDAOFactorySQL:95  - Test deleting data.
+2020-02-26 21:26:37 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 21:26:37 DEBUG TestStockTradeDAOFactorySQL:109 - Testing read by specific id.
+2020-02-26 21:26:37 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 21:26:37 DEBUG TestStockTradeDAOFactorySQL:124 - Testing batch operations function...
+2020-02-26 21:26:37 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 21:26:37 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:175)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 21:46:26 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 21:46:26 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 21:46:27 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-26 21:46:27 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 21:46:27 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 21:46:27 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 21:46:27 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-26 21:46:27 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 21:46:27 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-26 21:46:27 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 21:46:27 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-26 21:46:27 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 21:46:27 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-26 21:46:27 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 21:46:28 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 22:10:09 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 22:10:09 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 22:10:09 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-26 22:10:09 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 22:10:11 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 22:10:11 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 22:10:11 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-26 22:10:11 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 22:10:11 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-26 22:10:11 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 22:10:11 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-26 22:10:11 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 22:10:11 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-26 22:10:11 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 22:10:11 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-26 22:14:13 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-26 22:14:13 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-26 22:14:13 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-26 22:14:13 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-26 22:14:13 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 22:14:13 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-26 22:14:14 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-26 22:14:14 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-26 22:14:14 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-26 22:14:14 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-26 22:14:14 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-26 22:14:14 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-26 22:14:14 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-26 22:14:14 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-26 22:14:14 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-27 10:13:08 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 10:13:08 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 10:13:08 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 10:13:08 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 10:13:10 ERROR StockTradeDAOSQLImpl:143 - Unable to get all stocktrades data from the database.
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:371)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:446)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:456)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.getAllStockTrades(StockTradeDAOSQLImpl.java:140)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test1_totalRowsFetched(TestStockTradeDAOFactorySQL.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 29 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 34 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 41 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 44 more
+2020-02-27 10:13:10 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 10:13:10 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 10:13:12 ERROR StockTradeDAOSQLImpl:70  - Unable to insert this data into database : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:850)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:905)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:915)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.insertStockTrade(StockTradeDAOSQLImpl.java:66)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test2_checkInsert(TestStockTradeDAOFactorySQL.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 30 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 35 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 45 more
+2020-02-27 10:13:12 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 10:13:12 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 10:13:14 ERROR StockTradeDAOSQLImpl:107 - Unable to update the security 'AVAST' for tradeId '482'
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:850)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:905)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:915)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.updateStockTradeSecurity(StockTradeDAOSQLImpl.java:104)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test3_checkUpdate(TestStockTradeDAOFactorySQL.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 30 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 35 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 45 more
+2020-02-27 10:13:14 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 10:13:14 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 10:13:17 ERROR StockTradeDAOSQLImpl:125 - Unable to delete data from the database for tradeId : 482
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:850)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:905)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:915)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.deleteStockTradeById(StockTradeDAOSQLImpl.java:122)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test4_checkDelete(TestStockTradeDAOFactorySQL.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 30 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 35 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 42 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 45 more
+2020-02-27 10:13:17 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 10:13:17 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 10:13:19 ERROR StockTradeDAOSQLImpl:89  - Unable to retrieve data from the database for tradeId : 123
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:657)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:688)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:756)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.getStockTradeById(StockTradeDAOSQLImpl.java:86)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test5_checkReadById(TestStockTradeDAOFactorySQL.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 31 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 36 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 43 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 46 more
+2020-02-27 10:13:19 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 10:13:19 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-27 10:13:21 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:600)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:634)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:924)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1549)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1388)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 29 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1556)
+	at org.apache.commons.dbcp.BasicDataSource.createPoolableConnectionFactory(BasicDataSource.java:1545)
+	... 34 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 41 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 44 more
+2020-02-27 14:45:51 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 14:45:51 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 14:45:51 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 14:45:51 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 14:45:52 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:45:52 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:45:52 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 14:45:52 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 14:45:52 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 14:45:52 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 14:45:52 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 14:45:52 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 14:45:52 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 14:45:52 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-27 14:47:49 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 14:47:49 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 14:47:49 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 14:47:49 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 14:47:50 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:47:50 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:47:50 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 14:47:50 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 14:47:50 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 14:47:50 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 14:47:50 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 14:47:50 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 14:47:50 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 14:47:50 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-27 14:47:50 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-27 14:49:36 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 14:49:36 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 14:49:36 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 14:49:36 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 14:49:37 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:49:37 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:49:37 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 14:49:37 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 14:49:37 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 14:49:37 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 14:49:37 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 14:49:37 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 14:49:37 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 14:49:37 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-27 14:49:37 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-27 14:51:45 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 14:51:45 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 14:51:45 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 14:51:45 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 14:51:46 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:51:46 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:51:46 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 14:51:46 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 14:51:46 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 14:51:46 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 14:51:46 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 14:51:46 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 14:51:46 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 14:51:46 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-27 14:51:46 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-27 14:53:20 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 14:53:20 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 14:53:20 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 14:53:20 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 14:53:21 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:53:21 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 14:53:21 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 14:53:21 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 14:53:21 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 14:53:21 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 14:53:21 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 14:53:21 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 14:53:21 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 14:53:21 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3
+2020-02-27 14:53:21 ERROR StockTradeDAOSQLImpl:188 - Unable to perform batch operations on database.
+org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO STOCKTRADE (TRADE_ID,SECURITY,DATE_OPENED,OPEN,HIGH,LOW,CLOSE,VOLUME,ADJCLOSE) VALUES (?,?,?,?,?,?,?,?,?)]; Duplicate entry '485' for key 'PRIMARY'; nested exception is java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1443)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:633)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:647)
+	at org.springframework.jdbc.core.JdbcTemplate.batchUpdate(JdbcTemplate.java:936)
+	at com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl.performBatchInsertStockTrade(StockTradeDAOSQLImpl.java:164)
+	at com.reactiveworks.stocktrade.dao.factory.TestStockTradeDAOFactorySQL.test6_checkBatchOperations(TestStockTradeDAOFactorySQL.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+Caused by: java.sql.BatchUpdateException: Duplicate entry '485' for key 'PRIMARY'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:192)
+	at com.mysql.cj.util.Util.getInstance(Util.java:167)
+	at com.mysql.cj.util.Util.getInstance(Util.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:435)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:796)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$batchUpdate$2(JdbcTemplate.java:950)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	... 28 more
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '485' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:832)
+	... 34 more
+2020-02-27 16:56:19 DEBUG StockTradeDAOFactory:35  - Setting DB implementation as 'sql'
+2020-02-27 16:56:19 DEBUG StockTradeDAOFactory:68  - Returning instance from factory, Type: com.reactiveworks.stocktrade.dao.impl.StockTradeDAOSQLImpl
+2020-02-27 16:56:19 DEBUG TestStockTradeDAOFactorySQL:50  - Testing testTotalRowsFetched() method 
+2020-02-27 16:56:19 DEBUG StockTradeDAOSQLImpl:138 - Reading database data as List
+2020-02-27 16:56:20 DEBUG TestStockTradeDAOFactorySQL:74  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 16:56:20 DEBUG StockTradeDAOSQLImpl:64  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-27 16:56:21 DEBUG TestStockTradeDAOFactorySQL:84  - Testing updating data.
+2020-02-27 16:56:21 DEBUG StockTradeDAOSQLImpl:102 - Updating security for tradeId: 482
+2020-02-27 16:56:21 DEBUG TestStockTradeDAOFactorySQL:96  - Test deleting data.
+2020-02-27 16:56:21 DEBUG StockTradeDAOSQLImpl:120 - Deleting entry for tradeId :482
+2020-02-27 16:56:22 DEBUG TestStockTradeDAOFactorySQL:110 - Testing read by specific id.
+2020-02-27 16:56:22 DEBUG StockTradeDAOSQLImpl:84  - Reading DB for trade ID 123
+2020-02-27 16:56:22 DEBUG TestStockTradeDAOFactorySQL:125 - Testing batch operations function...
+2020-02-27 16:56:22 DEBUG StockTradeDAOSQLImpl:157 - Performing batch operations on database, batchsize = 3

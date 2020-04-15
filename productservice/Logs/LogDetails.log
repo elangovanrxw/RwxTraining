@@ -1,0 +1,220 @@
+2019-12-05 17:54:21 DEBUG ProductServiceTest:151 - Throw an InvalidPriceException for Negative price.
+2019-12-05 17:54:21 DEBUG ProductServiceTest:119 - Throw an InvalidDataFormatException for price 55,000
+2019-12-05 17:54:21 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:21 ERROR Product         :162 - Error occured for incorrect price input provided : 
+java.lang.NumberFormatException: For input string: "55,000"
+	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+	at java.lang.Double.parseDouble(Unknown Source)
+	at com.rxw.product.domain.Product.buildProduct(Product.java:157)
+	at com.rxw.product.productservice.ProductServiceTest.shouldThrowInvalidDataFormatException_forPrice(ProductServiceTest.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+2019-12-05 17:54:21 DEBUG ProductServiceTest:135 - Throw an InvalidDataFormatException for date 12/03/abc2016
+2019-12-05 17:54:21 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:21 ERROR Product         :167 - Error occured for incorrect date input provided. 
+java.text.ParseException: Unparseable date: "12/03/abc2016"
+	at java.text.DateFormat.parse(Unknown Source)
+	at com.rxw.product.domain.Product.buildProduct(Product.java:158)
+	at com.rxw.product.productservice.ProductServiceTest.shouldThrowInvalidDataFormatException_forDate(ProductServiceTest.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:763)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:463)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:209)
+2019-12-05 17:54:21 DEBUG ProductServiceTest:49  - Checking extension of file for (.csv)
+2019-12-05 17:54:21 DEBUG ProductCSVReader:42  - Searching for file : ProductDetail.csv
+2019-12-05 17:54:21 INFO  ProductCSVReader:44  - File found at the location :/G:/EclipseIDE/productservice/target/test-classes/ProductDetail.csv"
+2019-12-05 17:54:21 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:21 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:21 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:21 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:21 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:21 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:21 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:21 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:21 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:21 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 INFO  ProductCSVReader:106 - Returning all 9 products. 
+2019-12-05 17:54:22 DEBUG ProductServiceTest:37  - Returning 9 products for getAllProducts().
+2019-12-05 17:54:22 DEBUG ProductServiceTest:102 - Checking for "Furnitures" type
+2019-12-05 17:54:22 DEBUG ProductService  :38  - [ACTION] Getting all products
+2019-12-05 17:54:22 DEBUG ProductCSVReader:42  - Searching for file : ProductDetail.csv
+2019-12-05 17:54:22 INFO  ProductCSVReader:44  - File found at the location :/G:/EclipseIDE/productservice/target/test-classes/ProductDetail.csv"
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 INFO  ProductCSVReader:106 - Returning all 9 products. 
+2019-12-05 17:54:22 DEBUG ProductService  :50  - Getting products for Furnitures" as a product type.
+2019-12-05 17:54:22 WARN  ProductService  :57  - Specific product for type is null 
+2019-12-05 17:54:22 INFO  ProductService  :59  - Specific product type returning 0 products for category Furnitures
+2019-12-05 17:54:22 DEBUG ProductServiceTest:85  - Checking with product type laptop
+2019-12-05 17:54:22 DEBUG ProductService  :38  - [ACTION] Getting all products
+2019-12-05 17:54:22 DEBUG ProductCSVReader:42  - Searching for file : ProductDetail.csv
+2019-12-05 17:54:22 INFO  ProductCSVReader:44  - File found at the location :/G:/EclipseIDE/productservice/target/test-classes/ProductDetail.csv"
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 INFO  ProductCSVReader:106 - Returning all 9 products. 
+2019-12-05 17:54:22 DEBUG ProductService  :50  - Getting products for laptop" as a product type.
+2019-12-05 17:54:22 INFO  ProductService  :59  - Specific product type returning 2 products for category laptop
+2019-12-05 17:54:22 DEBUG ProductServiceTest:67  - Checking with product type Mobile
+2019-12-05 17:54:22 DEBUG ProductService  :38  - [ACTION] Getting all products
+2019-12-05 17:54:22 DEBUG ProductCSVReader:42  - Searching for file : ProductDetail.csv
+2019-12-05 17:54:22 INFO  ProductCSVReader:44  - File found at the location :/G:/EclipseIDE/productservice/target/test-classes/ProductDetail.csv"
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:63  - Creating Mobile Object.
+2019-12-05 17:54:22 DEBUG MobileDevice    :48  - Mobile building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:77  - Creating TV Object.
+2019-12-05 17:54:22 DEBUG TV              :82  - TV building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:84  - Creating washing machine Object.
+2019-12-05 17:54:22 DEBUG WashingMachine  :88  - Washing machine building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 DEBUG ProductCSVReader:70  - Creating Laptop Object.
+2019-12-05 17:54:22 DEBUG Laptop          :49  - Laptop building initiated.
+2019-12-05 17:54:22 DEBUG ProcessingDevice:118 - Processing device building initiated.
+2019-12-05 17:54:22 DEBUG Product         :151 - Product parameters are initializing.
+2019-12-05 17:54:22 INFO  ProductCSVReader:106 - Returning all 9 products. 
+2019-12-05 17:54:22 DEBUG ProductService  :50  - Getting products for Mobile" as a product type.
+2019-12-05 17:54:22 INFO  ProductService  :59  - Specific product type returning 3 products for category Mobile

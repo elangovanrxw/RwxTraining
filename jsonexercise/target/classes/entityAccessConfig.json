@@ -1,0 +1,46 @@
+{
+	"type":"object",
+	"properties":{
+		"type":{"type":"string",
+				"enum":["SQL","HAZELCAST"]},
+				
+		"entityTable":{
+						"type":"array",
+						"items":{
+									"type":"object",
+									"properties":{
+										"autoCreate":{"type":"boolean"},
+										"tablename":{"type":"string"},
+										"entityColums":{
+											
+										},
+										"entityIndexs" : {
+											"type":"object",
+											"properties":{
+												"entityIndex":{
+													"type":"array",
+													"items":{
+														"type":"object",
+														"properties":{
+															"entityColumnRef" : {"type":"string"}
+														},
+														"additionalProperties":false,
+														"required":["entityColumnRef"]
+													}
+												}
+											},
+											"additionalProperties":false,
+											"required":["entityIndex"]
+										}
+									},
+									"additionalProperties":false,
+									"required":["autoCreate","tablename"]
+						}					
+					},
+		"entityAccess": {
+			
+		}
+	},
+	"additionalProperties":false,
+	"required":["type","entityTable"]		
+}

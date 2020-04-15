@@ -1,0 +1,634 @@
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 13.3,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 30.7
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 31.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 31.1,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 40.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 40.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 40.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 34.2,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.2,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 52.400000000000006
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 52.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 52.4,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 40.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 40.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 40.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 39.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 59.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 59.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 59.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 35.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 55.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 55.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 55.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 34.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 54.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 54.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 54.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 40.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 58.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 58.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 58.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 31.1,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.1,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 50.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 50.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 50.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 40.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 40.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 40.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 59.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 79.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 79.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 79.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 40.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 17.3,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 57.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 57.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 57.3,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 52.4,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 17.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 69.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 69.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 69.5,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 58.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 78.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 78.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 78.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 79.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 97.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 97.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 97.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 40.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 60.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 60.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 60.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 55.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 75.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 75.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 75.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 57.3,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 14.5,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 71.8
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 72.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 72.2,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 54.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 74.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 74.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 74.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 60.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 80.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 80.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 80.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 97.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 117.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 117.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 117.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 50.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 70.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 70.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 70.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 78.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 98.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 98.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 98.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 72.2,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 17.5,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 89.7
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 90.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 90.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 75.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 95.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 95.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 95.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 80.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 100.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 100.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 100.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 74.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 94.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 94.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 94.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 69.5,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.3,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 88.8
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 89.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 89.2,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 117.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 137.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 137.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 137.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 98.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 118.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 118.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 118.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 94.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 11.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 105.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 105.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 105.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 90.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 110.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 110.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 110.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 70.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 90.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 90.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 90.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 95.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 115.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 115.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 115.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 137.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 155.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 155.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 155.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 89.2,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 109.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 109.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 109.2,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 105.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 125.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 125.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 125.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 115.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 135.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 135.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 135.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 90.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 110.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 110.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 110.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 109.2,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.4,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 127.6
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 128.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 128.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 100.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 120.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 120.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 120.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 110.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 130.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 130.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 130.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 118.4,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 19.5,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 137.9
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 138.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 138.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 135.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 155.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 155.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 155.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 155.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.3,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 173.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 173.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 173.4,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 125.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 145.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 145.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 145.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 128.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 147.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 147.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 147.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 120.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 140.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 140.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 140.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 110.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 17.2,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 127.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 127.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 127.4,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 155.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 175.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 175.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 175.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 147.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 167.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 167.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 167.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 138.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 158.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 158.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 158.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 145.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.2,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 164.6
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 165.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 165.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 127.4,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 147.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 147.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 147.4,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 175.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 195.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 195.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 195.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 130.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 149.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 149.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 149.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 165.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 185.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 185.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 185.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 140.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 159.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 159.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 159.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 147.4,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 167.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 167.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 167.4,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 158.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 178.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 178.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 178.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 173.4,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 16.3,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 189.70000000000002
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 190.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 190.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 149.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 169.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 169.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 169.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 167.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 187.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 187.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 187.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 195.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 213.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 213.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 213.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 178.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 198.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 198.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 198.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 159.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 179.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 179.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 179.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 185.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 205.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 205.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 205.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 169.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 189.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 189.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 189.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 190.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 209.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 209.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 209.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 179.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 199.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 199.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 199.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 167.4,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.1,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 185.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 185.5
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 185.5,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 189.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 209.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 209.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 209.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 209.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 229.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 229.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 229.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 198.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 17.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 215.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 215.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 215.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 213.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.4,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 231.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 231.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 231.4,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 199.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 219.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 219.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 219.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 205.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 17.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 222.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 222.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 222.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 187.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 5.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 192.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 192.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 192.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 215.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 235.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 235.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 235.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 209.1,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.5,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 228.6
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 229.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 229.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 229.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 249.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 249.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 249.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 185.5,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.1,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 204.6
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 205.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 205.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 192.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 212.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 212.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 212.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 219.3,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.4,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 237.70000000000002
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 238.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 238.1,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 222.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 11.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 233.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 233.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 233.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 205.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 225.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 225.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 225.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 235.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 14.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 249.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 249.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 249.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 238.1,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 15.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 253.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 253.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 253.1,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 212.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 232.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 232.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 232.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 231.4,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 13.3,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 244.70000000000002
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 245.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 245.1,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 225.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 245.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 245.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 245.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 229.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 249.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 249.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 249.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 233.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 253.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 253.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 253.4,Rising Pune Supergiants,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 249.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 269.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 269.3
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 269.3,Kings XI Punjab,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 249.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 269.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 269.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 269.1,Mumbai Indians,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 245.1,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 17.5,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 262.6
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 263.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 263.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 232.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 252.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 252.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 252.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 249.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 269.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 269.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 269.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 245.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 265.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 265.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 265.0,Delhi Daredevils,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 253.1,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.1,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 271.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 271.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 271.2,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 263.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 283.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 283.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 283.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 271.2,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 18.2,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 289.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 289.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 289.4,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 252.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 272.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 272.1
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 272.1,Kolkata Knight Riders,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 269.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 289.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 289.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 289.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 283.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 303.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 303.0
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 303.0,Gujarat Lions,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 289.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 19.2,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 308.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 308.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 308.2,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:411 - I2B OLD OVER : 289.4,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:412 - I2B NEW OVER : 20.0,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 309.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 309.4
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:414 - I2B UPDATED OVER : 309.4,Royal Challengers Bangalore,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:400 - I1B OLD OVER : 308.2,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:401 - I1B NEW OVER : 20.0,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:313 - Converting overs to exact : 328.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:329 - Returining exact overs as : 328.2
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:403 - I1B UPDATED OVER : 328.2,Sunrisers Hyderabad,2016
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Sunrisers Hyderabad, 272.0, 2349
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Royal Challengers Bangalore, 248.2, 1845
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Mumbai Indians, 327.1, 2789
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Rising Pune Supergiant, 307.1, 2470
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Gujarat Lions, 269.2, 2406
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Kolkata Knight Riders, 284.5, 2484
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Kings XI Punjab, 257.1, 2207
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2017, Delhi Daredevils, 267.2, 2219
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Kolkata Knight Riders, 249.1, 1942
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Royal Challengers Bangalore, 267.1, 1983
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Chennai Super Kings, 298.1, 2520
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Kings XI Punjab, 280.1, 2464
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Rajasthan Royals, 297.5, 2601
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Delhi Daredevils, 249.3, 2118
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Mumbai Indians, 249.4, 2080
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2008, Deccan Chargers, 268.4, 2229
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Mumbai Indians, 256.1, 1897
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Chennai Super Kings, 275.2, 2231
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Royal Challengers Bangalore, 310.2, 2280
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Rajasthan Royals, 247.2, 1688
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Kings XI Punjab, 268.0, 1928
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Delhi Daredevils, 275.5, 2131
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Kolkata Knight Riders, 243.5, 1757
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2009, Deccan Chargers, 304.4, 2408
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Kolkata Knight Riders, 272.2, 2144
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Deccan Chargers, 311.4, 2374
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Mumbai Indians, 317.1, 2738
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Rajasthan Royals, 268.0, 2179
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Kings XI Punjab, 275.3, 2278
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Delhi Daredevils, 272.0, 2155
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Royal Challengers Bangalore, 295.0, 2401
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2010, Chennai Super Kings, 311.2, 2595
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Chennai Super Kings, 314.5, 2560
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Kolkata Knight Riders, 269.3, 2023
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Deccan Chargers, 279.2, 2140
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Rajasthan Royals, 235.4, 1687
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Kochi Tuskers Kerala, 251.4, 1901
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Royal Challengers Bangalore, 294.2, 2469
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Delhi Daredevils, 266.1, 2087
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Mumbai Indians, 307.5, 2288
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Kings XI Punjab, 293.0, 2340
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2011, Pune Warriors, 245.0, 1775
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Chennai Super Kings, 353.4, 2831
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Mumbai Indians, 330.3, 2462
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Kolkata Knight Riders, 325.1, 2504
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Delhi Daredevils, 320.5, 2645
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Pune Warriors, 318.2, 2321
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Rajasthan Royals, 315.4, 2516
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Kings XI Punjab, 313.3, 2390
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Royal Challengers Bangalore, 296.1, 2472
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2012, Deccan Chargers, 294.3, 2312
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Delhi Daredevils, 311.3, 2234
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Kolkata Knight Riders, 311.1, 2290
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Royal Challengers Bangalore, 301.1, 2571
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Mumbai Indians, 374.1, 2975
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Sunrisers Hyderabad, 329.1, 2298
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Pune Warriors, 316.0, 2262
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Rajasthan Royals, 348.3, 2705
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Chennai Super Kings, 339.3, 2778
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2013, Kings XI Punjab, 304.1, 2428
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Kolkata Knight Riders, 302.1, 2488
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Mumbai Indians, 291.1, 2353
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Delhi Daredevils, 272.1, 2081
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Royal Challengers Bangalore, 269.0, 2093
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Chennai Super Kings, 311.0, 2650
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Kings XI Punjab, 328.0, 2987
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Sunrisers Hyderabad, 263.0, 2102
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2014, Rajasthan Royals, 269.0, 2155
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Mumbai Indians, 312.0, 2734
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Kolkata Knight Riders, 236.1, 2044
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Chennai Super Kings, 331.5, 2725
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Delhi Daredevils, 288.5, 2326
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Rajasthan Royals, 256.3, 2137
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Kings XI Punjab, 263.4, 2003
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Sunrisers Hyderabad, 268.2, 2210
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2015, Royal Challengers Bangalore, 251.1, 2311
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Mumbai Indians, 269.1, 2194
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Rising Pune Supergiants, 253.4, 2063
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Delhi Daredevils, 265.0, 2104
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Kolkata Knight Riders, 272.1, 2263
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Kings XI Punjab, 269.3, 2134
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Gujarat Lions, 303.0, 2450
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Royal Challengers Bangalore, 309.4, 2981
+2020-02-06 15:21:13 DEBUG CricketServiceImpl:?   - 2016, Sunrisers Hyderabad, 328.2, 2673
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:78  - HIGHEST RUN RATE LIST SIZE: 10
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2016,Royal Challengers Bangalore,9.63
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2017,Gujarat Lions,8.94
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2008,Kings XI Punjab,8.8
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2009,Chennai Super Kings,8.11
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2010,Mumbai Indians,8.63
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2011,Royal Challengers Bangalore,8.39
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2012,Royal Challengers Bangalore,8.35
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2013,Royal Challengers Bangalore,8.54
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2014,Kings XI Punjab,9.11
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2015,Royal Challengers Bangalore,9.2

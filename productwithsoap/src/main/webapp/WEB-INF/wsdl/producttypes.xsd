@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" targetNamespace="http://product.webservice.rwx.com" xmlns:tns="http://product.webservice.rwx.com" elementFormDefault="unqualified">
+
+<element name="createProductOperation">
+	<complexType>
+		<sequence>
+			<element name="product" type="tns:product"/>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="createProductOperationResponse">
+	<complexType>
+		<sequence>
+			<element name="create-result" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+<element name="updateProductOperation">
+	<complexType>
+		<sequence>
+			<element name="product" type="tns:product"></element>
+		</sequence>
+	</complexType>
+</element>
+<element name="updateProductOperationResponse">
+	<complexType>
+		<sequence>
+			<element name="udpate-result" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+<element name="deleteProductOperation">
+	<complexType>
+		<sequence>
+			<element name="product-id" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+<element name="deleteProductOperationResponse">
+	<complexType>
+		<sequence>
+			<element name="delete-result" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="getProductByIdOperation">
+	<complexType>
+		<sequence>
+			<element name="product-id" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="getProductByIdOperationResponse">
+	<complexType>
+		<sequence>
+			<element name="product" type="tns:product"></element>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="getProductByNameOperation">
+	<complexType>
+		<sequence>
+			<element name="product-name" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="getProductByNameOperationResponse">
+	<complexType>
+		<sequence>
+			<element name="product" type="tns:product"></element>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="ProductDAOException">
+	<complexType>
+		<sequence>
+			<element name="message" type="string"></element>
+		</sequence>
+	</complexType>
+</element>
+<complexType name="product">
+	<sequence>
+		<element name="productId" type="string"></element>
+		<element name="productName" type="string"></element>
+		<element name="productCategory" type="string"></element>
+		<element name="price" type="string"></element>
+		<element name="availableCities" type="string" minOccurs="1" maxOccurs="unbounded"></element>
+	</sequence>
+</complexType>
+</schema>

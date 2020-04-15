@@ -1,0 +1,11 @@
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:78  - HIGHEST RUN RATE LIST SIZE: 10
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2016,Royal Challengers Bangalore,9.63
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2017,Gujarat Lions,8.94
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2008,Kings XI Punjab,8.8
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2009,Chennai Super Kings,8.11
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2010,Mumbai Indians,8.63
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2011,Royal Challengers Bangalore,8.39
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2012,Royal Challengers Bangalore,8.35
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2013,Royal Challengers Bangalore,8.54
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2014,Kings XI Punjab,9.11
+2020-02-06 15:21:13 DEBUG TestCricketServiceImpl:?   - 2015,Royal Challengers Bangalore,9.2

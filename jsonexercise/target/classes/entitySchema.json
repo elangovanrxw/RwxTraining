@@ -1,0 +1,251 @@
+{
+	"$schema":"http://json-schema.org/draft-07/schema",
+	"definitions":{
+		"entityKey":{
+			"type":"object",
+			"properties":{
+				"name":{"type":"string"},
+				"sequence":{"type":"number"},
+				"required":{"type":"string"},
+				"mappedTo":{"type":"string"}
+			},
+			"additionalProperties":false,
+			"required":["name"]
+		},
+		"ldcResponseConfigs":{
+			"type":"object",
+			"properties":{			
+				"applyLDCConfig": {
+				        "type":"array",
+				        "items":{
+				        	"type":"object",
+							"properties": {
+								"applyAt":{"type":"string"},
+								"sequence":{"type":"number"},
+								"ldcSchema": {
+										"type":"object",
+										"properties":{
+											"required":{"type":"boolean"},
+											"schemaFileName":{"type":"string"}						
+										},
+										"additionalProperties":false,
+										"required":["required","schemaFileName"]
+								},
+								"ldcProjection":{
+										"type":"object",
+										"properties": {
+											"projectionFileName":{"type":"string"},
+											"projectionSource":{"type":"string"},
+											"required":{"type":"boolean"}
+										},
+										"additionalProperties":false,
+										"required":["projectionFileName","projectionSource","required"]
+								},
+								"ldcTaxonomy" : {
+									"type":"object",
+										"properties": {
+											"required":{"type":"boolean"}
+										},
+										"additionalProperties":false,
+										"required":["required"]
+								}
+							},
+						"additionalProperties":false,
+						"required":["applyAt","sequence","ldcSchema","ldcProjection","ldcTaxonomy"]
+						}				
+				  }
+						
+			},
+			"additionalProperties":false,
+			"required":["applyLDCConfig"]
+		}
+	},
+	
+	"type":"object",
+	"properties": {
+		"version":{"type":"number"},
+		
+		"entity":{
+				"type":"array",
+				"items": {
+					   "type":"object",
+					   "properties":{
+							"isEnable": {"type":"boolean"},
+							"name":{"type":"string"},
+							"entityFields":{
+											"type":"object",
+			 								"properties":{
+			 									"entityField":{
+			 											"type":"array",
+			 											"items":{
+			 									    			"type":"object",
+			 									    			"properties": {
+			 									    				"name":{"type":"string"},
+			 														"type":{"type":"string"}
+			 									    			},
+						 									    "additionalProperties":false,
+						 									    "required":["name","type"]	
+			 											}
+			 									}	
+											},
+											"additionalProperties":false,
+										    "required":["entityField"]	
+							},	
+							"entityCollection": {
+								"type": "object",
+								"properties":{
+									"collectionName":{"type":"string"},
+									"collectionType":{"type":"string"}
+								},
+								"additionalProperties":false,
+								"required":["collectionName","collectionType"]
+							},
+							"entityAccessConfig":{		
+									"type":"object",
+									"properties":{
+										"type":{"type":"string",
+												"enum":["SQL","HAZELCAST"]},
+												
+										"entityTable":{
+												"type":"array",
+												"items":{
+															"type":"object",
+															"properties":{
+																"autoCreate":{"type":"boolean"},
+																"tablename":{"type":"string"},
+																"entityColumns":{
+																	"type":"object",
+																	"properties": {
+																		"entityColumn":{
+																			"type":"array",
+																			"items":{   "type":"object",
+																						"properties": {
+																							"entityFieldNameRef":{"type":"string"},
+																							"hasAutoIncrement" : {"type":"boolean"},
+																							"name":{"type":"string"},
+																							"sequence":{"type":"number"},
+																							"attribute": {
+																								"type":"array",
+																								"items":{   "type":"object",
+																											"properties": {
+																												"name":{"type":"string"},
+																												"value":{"type":"string"},
+																												"size":{"type":"number"},
+																												"attributeDatatype":{"type":"string"},
+																												"type":{"type":"string"}
+																											},
+																											"additionalProperties":false,
+																											"required":["value","name"]
+																										}
+																							}
+																						},
+																						"additionalProperties":false,
+																						"required":["entityFieldNameRef","name"]
+																					}
+																		}
+																	},
+																	"additionalProperties":false,
+																	"required":["entityColumn"]
+																},
+																"entityIndexs" : {
+																	"type":"object",
+																	"properties":{
+																		"entityIndex":{
+																			"type":"array",
+																			"items":{
+																				"type":"object",
+																				"properties":{
+																					"entityColumnRef" : {"type":"string"}
+																				},
+																				"additionalProperties":false,
+																				"required":["entityColumnRef"]
+																			}
+																		}
+																	},
+																	"additionalProperties":false,
+																	"required":["entityIndex"]
+																}
+															},
+															"additionalProperties":false,
+															"required":["autoCreate","tablename"]
+												}					
+										},
+										"entityAccess": {
+											"type":"array",
+											"items":{
+													"type":"object",
+													"properties":{
+															"accessMethod": {"type":"string"},
+															"accessType" :  {"type":"string"},
+															"authorizedResource" : {"type":"string"},
+															"isCollection" :{"type":"boolean"},
+															"entityReadKeysMapping" : {
+																"type":"object",
+																"properties":{
+																	"entityKey":{
+																		"type":"array",
+																		"items":{
+																			"$ref":"#/definitions/entityKey"
+																		}
+																	}
+																},
+																"additionalProperties":false
+															},
+															"entityFilterKeysMapping" : {
+																"type":"object",
+																"properties":{
+																	"entityKey":{
+																		"type":"array",
+																		"items":{
+																			"$ref":"#/definitions/entityKey"
+																		}
+																	}
+																},
+																"additionalProperties":false
+															},
+															"entityUpdateKeysMapping" : {
+																"type":"object",
+																"properties":{
+																	"entityKey":{
+																		"type":"array",
+																		"items":{
+																			"$ref":"#/definitions/entityKey"
+																		}
+																	}
+																},
+																"additionalProperties":false
+															},
+															"entityInsertKeysMapping" : {
+																"type":"object",
+																"properties":{
+																	"entityKey":{
+																		"type":"array",
+																		"items":{
+																			"$ref":"#/definitions/entityKey"
+																		}
+																	}
+																},
+																"additionalProperties":false
+															},
+															"ldcResponseConfigs":{
+																"$ref":"#/definitions/ldcResponseConfigs"
+															}			
+														},
+													"additionalProperties":false,
+													"required":["accessMethod","accessType","authorizedResource"]
+											}
+										}
+									},
+									"additionalProperties":false,
+									"required":["type","entityTable","entityAccess"]	
+							}
+							},
+							"additionalProperties":false,
+							"required":["isEnable","name","entityFields","entityAccessConfig"]
+				}
+
+		}
+},
+"additionalProperties":false,
+"required":["entity","version"]
+}

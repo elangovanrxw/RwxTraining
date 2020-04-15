@@ -1,0 +1,35 @@
+{
+	"type":"object",
+	"properties": {
+		"entityColumn":{
+			"type":"array",
+			"items":{   "type":"object",
+						"properties": {
+							"entityFieldNameRef":{"type":"string"},
+							"hasAutoIncrement" : {"type":"string"},
+							"name":{"type":"string"},
+							"sequence":{"type":"number"},
+							"attribute": {
+								"type":"array",
+								"items":{   "type":"object",
+											"properties": {
+												"name":{"type":"string"},
+												"value":{"type":"string"},
+												"attributeDatatype":{"type":"string"},
+												"type":{"type":"string"}
+											},
+											"additionalProperties":false,
+											"required":["value","name"]
+										}
+							}
+						},
+						"additionalProperties":false,
+						"required":["entityFieldNameRef","name"]
+					}
+		}
+	},
+	"additionalProperties":false,
+	"required":["entityColumn"]
+	
+
+}

@@ -1,0 +1,49 @@
+{
+	"type":"object",
+	"properties":{
+			"accessMethod": {"type":"string"},
+			"accessType" :  {"type":"string"},
+			"authorizedResource" : {"type":"string"},
+			"entityReadKeysMapping" : {
+				"type":"object",
+				"properties":{
+					"entityKey":{
+						"type":"array",
+						"items":{
+							"$ref":"#/definitions/entityKey"
+						}
+					}
+				},
+				"additionalProperties":false
+			},
+			"entityFilterKeysMapping" : {
+				"type":"object",
+				"properties":{
+					"entityKey":{
+						"type":"array",
+						"items":{
+							"$ref":"#/definitions/entityKey"
+						}
+					}
+				},
+				"additionalProperties":false
+			},
+			"entityUpdateKeysMapping" : {
+				"type":"object",
+				"properties":{
+					"entityKey":{
+						"type":"array",
+						"items":{
+							"$ref":"#/definitions/entityKey"
+						}
+					}
+				},
+				"additionalProperties":false
+			},
+			"ldcResponseConfigs":{
+				"$ref":"#/definitions/ldcResponseConfigs"
+			}			
+		},
+	"additionalProperties":false,
+	"required":["accessMethod","accessType","authorizedResource"]		
+}

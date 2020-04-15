@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="XmlResponse3.xsl"?>
+
+<InsertTransaction>
+	<Tenant>Two, Inc.</Tenant>
+	<Companydbname>GPDAT</Companydbname>
+	<trx>
+		<aCTINDXField>0</aCTINDXField>
+		<aDRSCODEField />
+		<aSSETIDField />
+		<aSSETIDSUFField>0</aSSETIDSUFField>
+		<aSSETINDEXField>0</aSSETINDEXField>
+		<appointmentField />
+		<bACHNUMBField>ETT29Apr17</bACHNUMBField>
+		<bCHSOURCField />
+		<basePayRateAmountField>0</basePayRateAmountField>
+		<billing_AmountField>0</billing_AmountField>
+		<cOMPTRNMField>0</cOMPTRNMField>
+		<cOMPTRTPField>0</cOMPTRTPField>
+		<cUSTNMBRField />
+		<cashFringeField>0</cashFringeField>
+		<certified_PayrollField>0</certified_PayrollField>
+		<cost_Code_Act_Cost_TTDField>0</cost_Code_Act_Cost_TTDField>
+		<cost_Code_AliasField />
+		<cost_Code_Number_1Field />
+		<cost_Code_Number_2Field />
+		<cost_Code_Number_3Field />
+		<cost_Code_Number_4Field />
+		<cost_Decimal_PlacesField>0</cost_Decimal_PlacesField>
+		<cost_ElementField>0</cost_ElementField>
+		<cost_Per_UnitField>0</cost_Per_UnitField>
+		<dAYSWRDKField>0</dAYSWRDKField>
+		<dEPRTMNTField />
+		<dEX_ROW_IDField>0</dEX_ROW_IDField>
+		<dYOFWEEKField>SATURDAY</dYOFWEEKField>
+		<document_SourceField />
+		<eMPLOYIDField>ALVA0001</eMPLOYIDField>
+		<eQSEQUIPIDField />
+		<eQS_Cost_CodeField />
+		<employeeFringeField>0</employeeFringeField>
+		<employeeHomeRCRateField>0</employeeHomeRCRateField>
+		<employeeRateField>0</employeeRateField>
+		<equipment_IDField />
+		<est_Pct_Complete_to_DateField>0</est_Pct_Complete_to_DateField>
+		<fEDCLSSCDField />
+		<fridayField>0</fridayField>
+		<iTEMDESCField />
+		<iTEMNMBRField />
+		<jOBTITLEField />
+		<jobTransactionRCRateField>0</jobTransactionRCRateField>
+		<lNSEQNBRField>0</lNSEQNBRField>
+		<lOCALTAXField />
+		<lOCNCODEField />
+		<labor_Fixed_OHField>0</labor_Fixed_OHField>
+		<labor_OH_PercentageField>0</labor_OH_PercentageField>
+		<mDFUSRIDField />
+		<mODIFDTField>2017-04-29</mODIFDTField>
+		<modified_TimeField>2017-04-29</modified_TimeField>
+		<mondayField>0</mondayField>
+		<noteField />
+		<oH_AmountField>0</oH_AmountField>
+		<overhead_1_Cst_Dec_PlcsField>0</overhead_1_Cst_Dec_PlcsField>
+		<overhead_1_Cst_Per_UnitField>0</overhead_1_Cst_Per_UnitField>
+		<overhead_1_Pct_RateField>0</overhead_1_Pct_RateField>
+		<overhead_1_PercentField>0</overhead_1_PercentField>
+		<overhead_Group_CodeField />
+		<overhead_Units_1Field>0</overhead_Units_1Field>
+		<ovrhd_1_Unit_Dec_PlacesField>0</ovrhd_1_Unit_Dec_PlacesField>
+		<pAYRTAMTField>0</pAYRTAMTField>
+		<pSTGSTUSField>0</pSTGSTUSField>
+		<payroll_Pay_TypeField>0</payroll_Pay_TypeField>
+		<prevailingFringeField>0</prevailingFringeField>
+		<production_Actual_QtyField>0</production_Actual_QtyField>
+		<profit_AmountField>0</profit_AmountField>
+		<profit_Type_NumberField>0</profit_Type_NumberField>
+		<project_NumberField />
+		<rATECLSSField />
+		<sEQNUMBRField>0</sEQNUMBRField>
+		<sHFTCODEField />
+		<sHFTPREMField>0</sHFTPREMField>
+		<sTATECDField />
+		<sUTASTATField />
+		<sV_Language_IDField>0</sV_Language_IDField>
+		<saturdayField>0</saturdayField>
+		<sundayField>0</sundayField>
+		<tRXBEGDTField>2017-04-23</tRXBEGDTField>
+		<tRXDSCRNField />
+		<tRXENDDTField>2017-04-29</tRXENDDTField>
+		<tRXHRUNTField>7</tRXHRUNTField>
+		<tRXQTYField>0</tRXQTYField>
+		<tRX_OriginField />
+		<tRX_QTY_PRField>0</tRX_QTY_PRField>
+		<tRX_VerifiedField>0</tRX_VerifiedField>
+		<task_CodeField />
+		<thursdayField>0</thursdayField>
+		<time_InField>2017-04-29</time_InField>
+		<time_In_DateField>2017-04-29</time_In_DateField>
+		<time_OutField>2017-04-29</time_OutField>
+		<time_Out_DateField>2017-04-29</time_Out_DateField>
+		<time_ZoneField />
+		<transaction_Pay_PeriodField>0</transaction_Pay_PeriodField>
+		<tuesdayField>0</tuesdayField>
+		<uNIONCDField />
+		<uOFMField />
+		<uPRTRXCDField>HOUR</uPRTRXCDField>
+		<uSERDEF1Field />
+		<uSERDEF2Field />
+		<uSERIDField />
+		<uSRDAT01Field>2017-04-29</uSRDAT01Field>
+		<uSRDAT02Field>2017-04-29</uSRDAT02Field>
+		<unit_Decimal_PlacesField>0</unit_Decimal_PlacesField>
+		<user_Def_Integer_1Field>0</user_Def_Integer_1Field>
+		<user_Def_Integer_2Field>0</user_Def_Integer_2Field>
+		<user_Define_1Field />
+		<user_Define_2Field />
+		<user_Defined_CB_1Field>0</user_Defined_CB_1Field>
+		<user_Defined_CB_2Field>0</user_Defined_CB_2Field>
+		<user_Defined_CB_3Field>0</user_Defined_CB_3Field>
+		<user_Defined_CB_4Field>0</user_Defined_CB_4Field>
+		<user_Defined_Date_3Field>2017-04-29</user_Defined_Date_3Field>
+		<user_Defined_Date_4Field>2017-04-29</user_Defined_Date_4Field>
+		<user_Defined_Dollar_1Field>0</user_Defined_Dollar_1Field>
+		<user_Defined_Dollar_2Field>0</user_Defined_Dollar_2Field>
+		<user_Defined_Dollar_3Field>0</user_Defined_Dollar_3Field>
+		<user_Defined_Dollar_4Field>0</user_Defined_Dollar_4Field>
+		<user_Defined_Integer_3Field>0</user_Defined_Integer_3Field>
+		<user_Defined_Integer_4Field>0</user_Defined_Integer_4Field>
+		<vARDBAMTField>0</vARDBAMTField>
+		<vENDORIDField />
+		<wKSWRKDField>0</wKSWRKDField>
+		<wO_Task_IDField />
+		<wRKRCOMPField />
+		<wSReserved_CB10Field>0</wSReserved_CB10Field>
+		<wSReserved_CB1Field>0</wSReserved_CB1Field>
+		<wSReserved_CB2Field>0</wSReserved_CB2Field>
+		<wSReserved_CB3Field>0</wSReserved_CB3Field>
+		<wSReserved_CB4Field>0</wSReserved_CB4Field>
+		<wSReserved_CB5Field>0</wSReserved_CB5Field>
+		<wSReserved_CB6Field>0</wSReserved_CB6Field>
+		<wSReserved_CB7Field>0</wSReserved_CB7Field>
+		<wSReserved_CB8Field>0</wSReserved_CB8Field>
+		<wSReserved_CB9Field>0</wSReserved_CB9Field>
+		<wS_Cost_CodeField>1-10-8-1</wS_Cost_CodeField>
+		<wS_Cost_TypeField>1</wS_Cost_TypeField>
+		<wS_Extended_CostField>0</wS_Extended_CostField>
+		<wS_Job_NumberField>C676767</wS_Job_NumberField>
+		<wS_ModuleField />
+		<wS_Posting_StatusField>0</wS_Posting_StatusField>
+		<wS_Transaction_DateField>2017-04-29</wS_Transaction_DateField>
+		<wS_Transaction_StatusField>0</wS_Transaction_StatusField>
+		<wS_Transaction_TypeField>JOB_COST</wS_Transaction_TypeField>
+		<wednesdayField>0</wednesdayField>
+		<wennsoft_AffiliateField />
+		<wennsoft_BranchField />
+		<wennsoft_RegionField />
+	</trx>
+</InsertTransaction>

@@ -1,0 +1,98 @@
+2020-02-19 19:07:46 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:07:46 DEBUG TestStockTradeDAOFactorySQL:52  - Testing testTotalRowsFetched() method 
+2020-02-19 19:07:46 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:07:47 DEBUG TestStockTradeDAOFactorySQL:78  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:07:47 DEBUG StockTradeDAOSQLImpl:56  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:07:47 DEBUG TestStockTradeDAOFactorySQL:90  - Testing updating data.
+2020-02-19 19:07:47 DEBUG StockTradeDAOSQLImpl:82  - Updating security for tradeId: 482
+2020-02-19 19:07:47 DEBUG TestStockTradeDAOFactorySQL:104 - Test deleting data.
+2020-02-19 19:07:47 DEBUG StockTradeDAOSQLImpl:94  - Deleting entry for tradeId :482
+2020-02-19 19:07:47 DEBUG TestStockTradeDAOFactorySQL:117 - Testing read by specific id.
+2020-02-19 19:07:47 DEBUG StockTradeDAOSQLImpl:70  - Reading DB for trade ID 123
+2020-02-19 19:07:47 DEBUG TestStockTradeDAOFactorySQL:133 - Testing batch operations function...
+2020-02-19 19:07:47 DEBUG StockTradeDAOSQLImpl:120 - Performing batch operations on database, batchsize = 3
+2020-02-19 19:08:17 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:08:17 DEBUG TestStockTradeDAOFactorySQL:52  - Testing testTotalRowsFetched() method 
+2020-02-19 19:08:17 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:08:18 DEBUG TestStockTradeDAOFactorySQL:78  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:08:18 DEBUG StockTradeDAOSQLImpl:56  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:08:18 DEBUG TestStockTradeDAOFactorySQL:90  - Testing updating data.
+2020-02-19 19:08:18 DEBUG StockTradeDAOSQLImpl:82  - Updating security for tradeId: 482
+2020-02-19 19:08:18 DEBUG TestStockTradeDAOFactorySQL:104 - Test deleting data.
+2020-02-19 19:08:18 DEBUG StockTradeDAOSQLImpl:94  - Deleting entry for tradeId :482
+2020-02-19 19:08:18 DEBUG TestStockTradeDAOFactorySQL:117 - Testing read by specific id.
+2020-02-19 19:08:18 DEBUG StockTradeDAOSQLImpl:70  - Reading DB for trade ID 123
+2020-02-19 19:08:18 DEBUG TestStockTradeDAOFactorySQL:133 - Testing batch operations function...
+2020-02-19 19:08:18 DEBUG StockTradeDAOSQLImpl:120 - Performing batch operations on database, batchsize = 3
+2020-02-19 19:09:03 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:09:03 DEBUG TestStockTradeDAOFactorySQL:52  - Testing testTotalRowsFetched() method 
+2020-02-19 19:09:03 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:09:04 DEBUG TestStockTradeDAOFactorySQL:78  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:09:04 DEBUG StockTradeDAOSQLImpl:56  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:09:04 DEBUG TestStockTradeDAOFactorySQL:90  - Testing updating data.
+2020-02-19 19:09:04 DEBUG StockTradeDAOSQLImpl:82  - Updating security for tradeId: 482
+2020-02-19 19:09:04 DEBUG TestStockTradeDAOFactorySQL:104 - Test deleting data.
+2020-02-19 19:09:04 DEBUG StockTradeDAOSQLImpl:94  - Deleting entry for tradeId :482
+2020-02-19 19:09:04 DEBUG TestStockTradeDAOFactorySQL:117 - Testing read by specific id.
+2020-02-19 19:09:04 DEBUG StockTradeDAOSQLImpl:70  - Reading DB for trade ID 123
+2020-02-19 19:09:04 DEBUG TestStockTradeDAOFactorySQL:133 - Testing batch operations function...
+2020-02-19 19:09:04 DEBUG StockTradeDAOSQLImpl:120 - Performing batch operations on database, batchsize = 3
+2020-02-19 19:09:27 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:09:27 DEBUG TestStockTradeDAOFactorySQL:52  - Testing testTotalRowsFetched() method 
+2020-02-19 19:09:27 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:09:28 DEBUG TestStockTradeDAOFactorySQL:78  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:09:28 DEBUG StockTradeDAOSQLImpl:56  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:09:28 DEBUG TestStockTradeDAOFactorySQL:90  - Testing updating data.
+2020-02-19 19:09:28 DEBUG StockTradeDAOSQLImpl:82  - Updating security for tradeId: 482
+2020-02-19 19:09:28 DEBUG TestStockTradeDAOFactorySQL:104 - Test deleting data.
+2020-02-19 19:09:28 DEBUG StockTradeDAOSQLImpl:94  - Deleting entry for tradeId :482
+2020-02-19 19:09:28 DEBUG TestStockTradeDAOFactorySQL:117 - Testing read by specific id.
+2020-02-19 19:09:28 DEBUG StockTradeDAOSQLImpl:70  - Reading DB for trade ID 123
+2020-02-19 19:09:28 DEBUG TestStockTradeDAOFactorySQL:133 - Testing batch operations function...
+2020-02-19 19:09:28 DEBUG StockTradeDAOSQLImpl:120 - Performing batch operations on database, batchsize = 3
+2020-02-19 19:13:21 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:13:21 DEBUG TestStockTradeDAOFactorySQL:52  - Testing testTotalRowsFetched() method 
+2020-02-19 19:13:22 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:13:22 DEBUG TestStockTradeDAOFactorySQL:78  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:13:22 DEBUG StockTradeDAOSQLImpl:56  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:13:22 DEBUG TestStockTradeDAOFactorySQL:90  - Testing updating data.
+2020-02-19 19:13:22 DEBUG StockTradeDAOSQLImpl:82  - Updating security for tradeId: 482
+2020-02-19 19:13:23 DEBUG TestStockTradeDAOFactorySQL:104 - Test deleting data.
+2020-02-19 19:13:23 DEBUG StockTradeDAOSQLImpl:94  - Deleting entry for tradeId :482
+2020-02-19 19:13:23 DEBUG TestStockTradeDAOFactorySQL:117 - Testing read by specific id.
+2020-02-19 19:13:23 DEBUG StockTradeDAOSQLImpl:70  - Reading DB for trade ID 123
+2020-02-19 19:13:23 DEBUG TestStockTradeDAOFactorySQL:133 - Testing batch operations function...
+2020-02-19 19:13:23 DEBUG StockTradeDAOSQLImpl:120 - Performing batch operations on database, batchsize = 3
+2020-02-19 19:14:07 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:14:07 DEBUG TestStockTradeDAOFactorySQL:52  - Testing testTotalRowsFetched() method 
+2020-02-19 19:14:07 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:14:08 DEBUG TestStockTradeDAOFactorySQL:78  - Testing inserting data : 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:14:08 DEBUG StockTradeDAOSQLImpl:56  - Inserting data: 482 NORTON 2014-01-01 15.5 16.224 15.2533 15.94323 4.1105E7 15.92
+2020-02-19 19:14:08 DEBUG TestStockTradeDAOFactorySQL:90  - Testing updating data.
+2020-02-19 19:14:08 DEBUG StockTradeDAOSQLImpl:82  - Updating security for tradeId: 482
+2020-02-19 19:14:08 DEBUG TestStockTradeDAOFactorySQL:104 - Test deleting data.
+2020-02-19 19:14:08 DEBUG StockTradeDAOSQLImpl:94  - Deleting entry for tradeId :482
+2020-02-19 19:14:08 DEBUG TestStockTradeDAOFactorySQL:117 - Testing read by specific id.
+2020-02-19 19:14:08 DEBUG StockTradeDAOSQLImpl:70  - Reading DB for trade ID 123
+2020-02-19 19:14:08 DEBUG TestStockTradeDAOFactorySQL:133 - Testing batch operations function...
+2020-02-19 19:14:08 DEBUG StockTradeDAOSQLImpl:120 - Performing batch operations on database, batchsize = 3
+2020-02-19 19:17:29 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:17:29 DEBUG StockTradeServiceImplTest:46  - Testing readAllStockTrades() method..
+2020-02-19 19:17:29 DEBUG StockTradeServiceImplTest:62  - Testing getMaxVolumeTrade() method..
+2020-02-19 19:17:29 DEBUG StockTradeServiceImplTest:80  - Testing getMinVolumeTrade() method..
+2020-02-19 19:17:29 DEBUG StockTradeServiceImplTest:97  - Testing getDailyTradingDifferential() method..
+2020-02-19 19:20:10 DEBUG StockTradeDAOFactory:49  - Setting DB implementation as 'sql'
+2020-02-19 19:20:10 DEBUG StockTradeServiceImplTest:49  - Testing readAllStockTrades() method..
+2020-02-19 19:20:10 DEBUG StockTradeServiceImpl:40  - Reading the complete stocktrade data..
+2020-02-19 19:20:10 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:20:11 DEBUG StockTradeServiceImplTest:65  - Testing getMaxVolumeTrade() method..
+2020-02-19 19:20:11 DEBUG StockTradeServiceImpl:40  - Reading the complete stocktrade data..
+2020-02-19 19:20:11 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:20:12 DEBUG StockTradeServiceImplTest:69  - MAX TRADE : 11 CISCO 2013-11-14 20.940001 21.440001 20.77 21.370001 2.432554E8 19.580846
+2020-02-19 19:20:12 DEBUG StockTradeServiceImplTest:83  - Testing getMinVolumeTrade() method..
+2020-02-19 19:20:12 DEBUG StockTradeServiceImpl:40  - Reading the complete stocktrade data..
+2020-02-19 19:20:12 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List
+2020-02-19 19:20:12 DEBUG StockTradeServiceImplTest:87  - MIN TRADE : 236 CISCO 2012-12-24 19.870001 19.959999 19.74 19.83 1.25507E7 17.768327
+2020-02-19 19:20:12 DEBUG StockTradeServiceImplTest:100 - Testing getDailyTradingDifferential() method..
+2020-02-19 19:20:12 DEBUG StockTradeServiceImpl:40  - Reading the complete stocktrade data..
+2020-02-19 19:20:12 DEBUG StockTradeDAOSQLImpl:106 - Reading database data as List

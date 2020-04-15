@@ -1,0 +1,9 @@
+{
+	"type":"object",
+	"properties":{
+		"collectionName":{"type":"string"},
+		"collectionType" : {"type":"string"}
+		},
+	"additionalProperties":false,
+	"required":["collectionName","collectionType"]		
+}

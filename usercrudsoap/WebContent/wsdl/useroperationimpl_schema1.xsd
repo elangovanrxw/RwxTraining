@@ -1,0 +1,78 @@
+<xs:schema xmlns:tns="http://userdao.rxwwebservice.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://userdao.rxwwebservice.com" version="1.0">
+  <xs:element name="createNewUserOperation" type="tns:createNewUserOperation"/>
+  <xs:element name="createNewUserOperationResponse" type="tns:createNewUserOperationResponse"/>
+  <xs:element name="deleteUserByUserIdOperation" type="tns:deleteUserByUserIdOperation"/>
+  <xs:element name="deleteUserByUserIdOperationResponse" type="tns:deleteUserByUserIdOperationResponse"/>
+  <xs:element name="getUserByUserIdOperation" type="tns:getUserByUserIdOperation"/>
+  <xs:element name="getUserByUserIdOperationResponse" type="tns:getUserByUserIdOperationResponse"/>
+  <xs:element name="getUserByUserNameOperation" type="tns:getUserByUserNameOperation"/>
+  <xs:element name="getUserByUserNameOperationResponse" type="tns:getUserByUserNameOperationResponse"/>
+  <xs:element name="updateExistingUserOperation" type="tns:updateExistingUserOperation"/>
+  <xs:element name="updateExistingUserOperationResponse" type="tns:updateExistingUserOperationResponse"/>
+  <xs:element name="user" type="tns:user"/>
+  <xs:complexType name="createNewUserOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="user">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="userId" type="xs:string"/>
+      <xs:element minOccurs="0" name="username" type="xs:string"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="phone" type="xs:string"/>
+      <xs:element minOccurs="0" name="city" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="createNewUserOperationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="createUserResult" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUserByUserIdOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUserByUserIdOperationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getUserByIdResult" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteUserByUserIdOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="deleteUserByUserIdOperationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="deleteUserByIdResult" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUserByUserNameOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getUserByUserNameOperationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="getUserByNameResult" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateExistingUserOperation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:user"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="updateExistingUserOperationResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="updateUserResult" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserDAOException" type="tns:UserDAOException"/>
+  <xs:complexType name="UserDAOException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

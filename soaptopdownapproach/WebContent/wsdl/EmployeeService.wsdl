@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="EmployeeServiceImpl" targetNamespace="http://soap.topdownapproach.example.wsdl" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd1="http://soap.topdownapproach.example.xsd" xmlns:tns="http://soap.topdownapproach.example.wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <schema targetNamespace="http://soap.topdownapproach.example.xsd" xmlns="http://www.w3.org/2001/XMLSchema">
+		<element name="getEmployeeRequest">
+			<complexType>
+				<sequence>
+					<element name="emp-no" type="int"/>
+				</sequence>
+			</complexType>
+		</element>
+		
+		<element name="getEmployeeResponse">
+			<complexType>
+				<sequence>
+					<element name="emp-name" type="string"/>
+				</sequence>
+			</complexType>
+		</element>
+	</schema>
+  </types>
+  <message name="empReqMessage">
+    <part name="parameter" element="xsd1:getEmployeeRequest">
+    </part>
+  </message>
+  <message name="empResMessage">
+    <part name="parameter" element="xsd1:getEmployeeResponse">
+    </part>
+  </message>
+  <portType name="EmployeeService">
+    <operation name="getEmployeeNameFor">
+      <input message="tns:empReqMessage">
+    </input>
+      <output message="tns:empResMessage">
+    </output>
+    </operation>
+  </portType>
+  <binding name="EmployeeServiceSoapBinding" type="tns:EmployeeService">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="getEmployeeNameFor">
+      <soap:operation soapAction="" style="document"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="EmployeeServiceImpl">
+    <port name="EmployeeService" binding="tns:EmployeeServiceSoapBinding">
+      <soap:address location="http://localhost:8090/soaptopdownapproach/services/EmployeeService"/>
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,280 @@
+{
+  "version": 1.0,
+  "entity": [
+    {
+      "isEnable": true,
+      "name": "WMS_Employee",
+      "entityFields": {
+        "entityField": [
+          {
+            "name": "Emp_Id",
+            "type": "long"
+          },
+          {
+            "name": "Emp_Name",
+            "type": "string"
+          },
+          {
+            "name": "Emp_Salary",
+            "type": "double"
+          },
+          {
+            "name": "Emp_Email",
+            "type": "string"
+          }
+        ]
+      },
+      "entityCollection": {
+        "collectionName": "WMS_Employees",
+        "collectionType": "list"
+      },
+      "entityAccessConfig": {
+        "type": "SQL",
+        "entityTable": [
+          {
+            "autoCreate": true,
+            "tablename": "employee1",
+            "entityColumns": {
+              "entityColumn": [
+                {
+                  "attribute": [
+                    {
+                      "name": "dataType",
+                      "value": "long",
+                      "size": 0
+                    },
+                    {
+                      "name": "isPrimaryKey",
+                      "value": "true",
+                      "size": 0
+                    },
+                    {
+                      "name": "autoIncrement",
+                      "value": "SNOWFLAKE",
+                      "attributeDatatype": "Number",
+                      "type": "MANUAL",
+                      "size": 0
+                    }
+                  ],
+                  "entityFieldNameRef": "Emp_Id",
+                  "hasAutoIncrement": true,
+                  "name": "id",
+                  "sequence": 2
+                },
+                {
+                  "attribute": [
+                    {
+                      "name": "DataType",
+                      "value": "varchar",
+                      "attributeDatatype": "String",
+                      "size": 30
+                    }
+                  ],
+                  "entityFieldNameRef": "Emp_Name",
+                  "hasAutoIncrement": false,
+                  "name": "empName",
+                  "sequence": 0
+                },
+                {
+                  "attribute": [
+                    {
+                      "name": "DataType",
+                      "value": "Double",
+                      "size": 0
+                    }
+                  ],
+                  "entityFieldNameRef": "Emp_Salary",
+                  "hasAutoIncrement": false,
+                  "name": "salary",
+                  "sequence": 0
+                },
+                {
+                  "attribute": [
+                    {
+                      "name": "DataType",
+                      "value": "varchar",
+                      "size": 30
+                    },
+                    {
+                      "name": "isNotNull",
+                      "value": "true",
+                      "size": 0
+                    }
+                  ],
+                  "entityFieldNameRef": "Emp_Email",
+                  "hasAutoIncrement": false,
+                  "name": "email",
+                  "sequence": 1
+                }
+              ]
+            },
+            "entityIndexs": {
+              "entityIndex": [
+                {
+                  "entityColumnRef": "id"
+                }
+              ]
+            }
+          }
+        ],
+        "entityAccess": [
+          {
+            "accessMethod": "GET",
+            "accessType": "read",
+            "authorizedResource": "getWmsEmployeeById",
+            "isCollection": false,
+            "entityReadKeysMapping": {
+              "entityKey": [
+                {
+                  "name": "Emp_Id",
+                  "sequence": 1
+                },
+                {
+                  "name": "Emp_Name",
+                  "sequence": 2
+                },
+                {
+                  "name": "Emp_Salary",
+                  "sequence": 3
+                },
+                {
+                  "name": "Emp_Email",
+                  "sequence": 4
+                }
+              ]
+            },
+            "entityFilterKeysMapping": {
+              "entityKey": [
+                {
+                  "name": "Emp_Id",
+                  "sequence": 0,
+                  "mappedTo": "Employee_Id",
+                  "required": "mandatory"
+                }
+              ]
+            },
+            "ldcResponseConfigs": {
+              "applyLDCConfig": [
+                {
+                  "applyAt": "impl",
+                  "sequence": 1,
+                  "ldcSchema": {
+                    "required": false,
+                    "schemaFileName": "schemaFileName"
+                  },
+                  "ldcProjection": {
+                    "projectionFileName": "EntityTest_Test_test_QW_Swagger.json",
+                    "projectionSource": "swagger",
+                    "required": false
+                  },
+                  "ldcTaxonomy": {
+                    "required": false
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "accessMethod": "GET",
+            "accessType": "read",
+            "authorizedResource": "getAllWmsEmployees",
+            "isCollection": true,
+            "entityReadKeysMapping": {},
+            "ldcResponseConfigs": {
+              "applyLDCConfig": [
+                {
+                  "applyAt": "impl",
+                  "sequence": 1,
+                  "ldcSchema": {
+                    "required": false,
+                    "schemaFileName": "schemaFileName"
+                  },
+                  "ldcProjection": {
+                    "projectionFileName": "EntityTest_Test_test_QW_Swagger.json",
+                    "projectionSource": "swagger",
+                    "required": false
+                  },
+                  "ldcTaxonomy": {
+                    "required": true
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "accessMethod": "POST",
+            "accessType": "Create",
+            "authorizedResource": "insertWmsEmployee",
+            "isCollection": false,
+            "entityInsertKeysMapping": {
+              "entityKey": [
+                {
+                  "name": "Emp_Name",
+                  "sequence": 0,
+                  "required": "mandatory"
+                },
+                {
+                  "name": "Emp_Salary",
+                  "sequence": 0,
+                  "required": "optional"
+                },
+                {
+                  "name": "Emp_Email",
+                  "sequence": 0,
+                  "required": "optional"
+                }
+              ]
+            }
+          },
+          {
+            "accessMethod": "POST",
+            "accessType": "Update",
+            "authorizedResource": "updateWmsEmployeeByIdAndName",
+            "isCollection": false,
+            "entityUpdateKeysMapping": {
+              "entityKey": [
+                {
+                  "name": "Emp_Salary",
+                  "sequence": 0
+                },
+                {
+                  "name": "Emp_Email",
+                  "sequence": 0
+                }
+              ]
+            },
+            "entityFilterKeysMapping": {
+              "entityKey": [
+                {
+                  "name": "Emp_Id",
+                  "sequence": 0,
+                  "required": "mandatory"
+                },
+                {
+                  "name": "Emp_Name",
+                  "sequence": 0,
+                  "required": "optional"
+                }
+              ]
+            }
+          },
+          {
+            "accessMethod": "GET",
+            "accessType": "Delete",
+            "authorizedResource": "deleteWmsEmployeeById",
+            "isCollection": false,
+            "entityFilterKeysMapping": {
+              "entityKey": [
+                {
+                  "name": "Emp_Id",
+                  "sequence": 0,
+                  "required": "mandatory"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

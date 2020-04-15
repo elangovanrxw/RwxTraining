@@ -1,0 +1,1708 @@
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,66,27,762
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Royal Challengers Bangalore,15,8,168
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Royal Challengers Bangalore,81,35,930
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 485
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 485 Delhi Daredevils 13 6 160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 485 Kolkata Knight Riders 14 3 161
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,79,26,1014
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,14,3,161
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,93,29,1175
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Delhi Daredevils,87,30,1032
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Delhi Daredevils,13,6,160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Delhi Daredevils,100,36,1192
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 486
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 486 Kings XI Punjab 24 13 231
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 486 Chennai Super Kings 19 4 187
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Chennai Super Kings,86,49,1139
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Chennai Super Kings,19,4,187
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Chennai Super Kings,105,53,1326
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,92,38,1019
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,24,13,231
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,116,51,1250
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 487
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 487 Sunrisers Hyderabad 15 0 134
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 487 Rajasthan Royals 6 1 102
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,60,29,910
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Sunrisers Hyderabad,15,0,134
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Sunrisers Hyderabad,75,29,1044
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Rajasthan Royals,85,33,1008
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Rajasthan Royals,6,1,102
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Rajasthan Royals,91,34,1110
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 488
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 488 Kings XI Punjab 19 7 198
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 488 Royal Challengers Bangalore 13 9 166
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,81,35,930
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Royal Challengers Bangalore,13,9,166
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Royal Challengers Bangalore,94,44,1096
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,116,51,1250
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,19,7,198
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,135,58,1448
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 489
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 489 Delhi Daredevils 10 5 143
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 489 Sunrisers Hyderabad 2 2 44
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Delhi Daredevils,100,36,1192
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Delhi Daredevils,10,5,143
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Delhi Daredevils,110,41,1335
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,75,29,1044
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Sunrisers Hyderabad,2,2,44
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Sunrisers Hyderabad,77,31,1088
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 490
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 490 Mumbai Indians 10 8 157
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 490 Chennai Super Kings 13 6 160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Mumbai Indians,80,32,1017
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Mumbai Indians,10,8,157
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Mumbai Indians,90,40,1174
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Chennai Super Kings,105,53,1326
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Chennai Super Kings,13,6,160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Chennai Super Kings,118,59,1486
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 491
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 491 Kings XI Punjab 17 2 149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 491 Kolkata Knight Riders 18 1 150
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,93,29,1175
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,18,1,150
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,111,30,1325
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,135,58,1448
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,17,2,149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,152,60,1597
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 492
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 492 Royal Challengers Bangalore 15 12 190
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 492 Rajasthan Royals 19 8 191
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,94,44,1096
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Royal Challengers Bangalore,15,12,190
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Royal Challengers Bangalore,109,56,1286
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Rajasthan Royals,91,34,1110
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Rajasthan Royals,19,8,191
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Rajasthan Royals,110,42,1301
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 493
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 493 Sunrisers Hyderabad 16 5 157
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 493 Mumbai Indians 15 6 160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Mumbai Indians,90,40,1174
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Mumbai Indians,15,6,160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Mumbai Indians,105,46,1334
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,77,31,1088
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Sunrisers Hyderabad,16,5,157
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Sunrisers Hyderabad,93,36,1245
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 494
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 494 Rajasthan Royals 10 7 148
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 494 Chennai Super Kings 9 5 149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Chennai Super Kings,118,59,1486
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Chennai Super Kings,9,5,149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Chennai Super Kings,127,64,1635
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Rajasthan Royals,110,42,1301
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Rajasthan Royals,10,7,148
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Rajasthan Royals,120,49,1449
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 495
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 495 Royal Challengers Bangalore 11 12 186
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 495 Delhi Daredevils 11 8 170
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Delhi Daredevils,110,41,1335
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Delhi Daredevils,11,8,170
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Delhi Daredevils,121,49,1505
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,109,56,1286
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Royal Challengers Bangalore,11,12,186
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Royal Challengers Bangalore,120,68,1472
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 496
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 496 Sunrisers Hyderabad 14 12 205
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 496 Kings XI Punjab 19 12 211
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kings XI Punjab,152,60,1597
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kings XI Punjab,19,12,211
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kings XI Punjab,171,72,1808
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,93,36,1245
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Sunrisers Hyderabad,14,12,205
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Sunrisers Hyderabad,107,48,1450
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 497
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 497 Mumbai Indians 11 4 141
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 497 Kolkata Knight Riders 14 3 142
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,111,30,1325
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,14,3,142
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,125,33,1467
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Mumbai Indians,105,46,1334
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Mumbai Indians,11,4,141
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Mumbai Indians,116,50,1475
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 498
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 498 Rajasthan Royals 13 12 201
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 498 Delhi Daredevils 12 3 139
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Delhi Daredevils,121,49,1505
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Delhi Daredevils,12,3,139
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Delhi Daredevils,133,52,1644
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Rajasthan Royals,120,49,1449
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Rajasthan Royals,13,12,201
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Rajasthan Royals,133,61,1650
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 499
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 499 Chennai Super Kings 10 4 138
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 499 Royal Challengers Bangalore 8 8 142
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,120,68,1472
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Royal Challengers Bangalore,8,8,142
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Royal Challengers Bangalore,128,76,1614
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Chennai Super Kings,127,64,1635
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Chennai Super Kings,10,4,138
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Chennai Super Kings,137,68,1773
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 500
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 500 Sunrisers Hyderabad 13 4 142
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 500 Kolkata Knight Riders 13 5 146
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,125,33,1467
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,13,5,146
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,138,38,1613
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,107,48,1450
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Sunrisers Hyderabad,13,4,142
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Sunrisers Hyderabad,120,52,1592
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 501
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 501 Mumbai Indians 12 9 178
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 501 Rajasthan Royals 7 8 153
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Mumbai Indians,116,50,1475
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Mumbai Indians,12,9,178
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Mumbai Indians,128,59,1653
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Rajasthan Royals,133,61,1650
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Rajasthan Royals,7,8,153
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Rajasthan Royals,140,69,1803
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 502
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 502 Delhi Daredevils 16 5 164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 502 Kings XI Punjab 13 6 165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Delhi Daredevils,133,52,1644
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Delhi Daredevils,16,5,164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Delhi Daredevils,149,57,1808
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kings XI Punjab,171,72,1808
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kings XI Punjab,13,6,165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kings XI Punjab,184,78,1973
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 503
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 503 Royal Challengers Bangalore 13 6 160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 503 Sunrisers Hyderabad 11 8 161
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,128,76,1614
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Royal Challengers Bangalore,13,6,160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Royal Challengers Bangalore,141,82,1774
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,120,52,1592
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Sunrisers Hyderabad,11,8,161
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Sunrisers Hyderabad,131,60,1753
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 504
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 504 Chennai Super Kings 8 9 154
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 504 Kolkata Knight Riders 19 3 156
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,138,38,1613
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,19,3,156
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,157,41,1769
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Chennai Super Kings,137,68,1773
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Chennai Super Kings,8,9,154
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Chennai Super Kings,145,77,1927
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 505
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 505 Kings XI Punjab 12 7 156
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 505 Mumbai Indians 16 3 159
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Mumbai Indians,128,59,1653
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Mumbai Indians,16,3,159
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Mumbai Indians,144,62,1812
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,184,78,1973
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,12,7,156
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,196,85,2129
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 506
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 506 Kolkata Knight Riders 20 7 195
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 506 Royal Challengers Bangalore 14 4 165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,157,41,1769
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kolkata Knight Riders,20,7,195
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kolkata Knight Riders,177,48,1964
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,141,82,1774
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Royal Challengers Bangalore,14,4,165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Royal Challengers Bangalore,155,86,1939
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 507
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 507 Chennai Super Kings 15 10 185
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 507 Sunrisers Hyderabad 17 7 189
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Chennai Super Kings,145,77,1927
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Chennai Super Kings,15,10,185
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Chennai Super Kings,160,87,2112
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,131,60,1753
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Sunrisers Hyderabad,17,7,189
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Sunrisers Hyderabad,148,67,1942
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 508
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 508 Mumbai Indians 20 3 173
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 508 Delhi Daredevils 13 6 158
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Mumbai Indians,144,62,1812
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Mumbai Indians,20,3,173
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Mumbai Indians,164,65,1985
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Delhi Daredevils,149,57,1808
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Delhi Daredevils,13,6,158
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Delhi Daredevils,162,63,1966
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 509
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 509 Kings XI Punjab 16 6 179
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 509 Rajasthan Royals 9 8 163
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,196,85,2129
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,16,6,179
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,212,91,2308
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Rajasthan Royals,140,69,1803
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Rajasthan Royals,9,8,163
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Rajasthan Royals,149,77,1966
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 510
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 510 Royal Challengers Bangalore 10 6 154
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 510 Chennai Super Kings 13 7 160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Royal Challengers Bangalore,155,86,1939
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Royal Challengers Bangalore,10,6,154
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Royal Challengers Bangalore,165,92,2093
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Chennai Super Kings,160,87,2112
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Chennai Super Kings,13,7,160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Chennai Super Kings,173,94,2272
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 511
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 511 Sunrisers Hyderabad 19 5 160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 511 Kolkata Knight Riders 14 11 161
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,177,48,1964
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,14,11,161
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,191,59,2125
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Sunrisers Hyderabad,148,67,1942
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Sunrisers Hyderabad,19,5,160
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Sunrisers Hyderabad,167,72,2102
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 512
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 512 Delhi Daredevils 15 0 115
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 512 Kings XI Punjab 10 4 119
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Delhi Daredevils,162,63,1966
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Delhi Daredevils,15,0,115
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Delhi Daredevils,177,63,2081
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kings XI Punjab,212,91,2308
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kings XI Punjab,10,4,119
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kings XI Punjab,222,95,2427
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 513
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 513 Rajasthan Royals 17 9 189
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 513 Mumbai Indians 19 12 195
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Mumbai Indians,164,65,1985
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Mumbai Indians,19,12,195
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Mumbai Indians,183,77,2180
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Rajasthan Royals,149,77,1966
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Rajasthan Royals,17,9,189
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Rajasthan Royals,166,86,2155
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 514
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 514 Kolkata Knight Riders 17 6 163
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 514 Kings XI Punjab 4 9 135
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,191,59,2125
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kolkata Knight Riders,17,6,163
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kolkata Knight Riders,208,65,2288
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kings XI Punjab,222,95,2427
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kings XI Punjab,4,9,135
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kings XI Punjab,226,104,2562
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 515
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 515 Mumbai Indians 14 9 173
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 515 Chennai Super Kings 15 8 176
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Mumbai Indians,183,77,2180
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Mumbai Indians,14,9,173
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Mumbai Indians,197,86,2353
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Chennai Super Kings,173,94,2272
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Chennai Super Kings,15,8,176
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Chennai Super Kings,188,102,2448
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 516
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 516 Kings XI Punjab 19 13 226
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 516 Chennai Super Kings 17 10 202
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Chennai Super Kings,188,102,2448
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Chennai Super Kings,17,10,202
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Chennai Super Kings,205,112,2650
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,226,104,2562
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,19,13,226
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,245,117,2788
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 517
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 517 Kings XI Punjab 17 10 199
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 517 Kolkata Knight Riders 15 11 200
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2014Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2014,Kolkata Knight Riders,208,65,2288
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2014,Kolkata Knight Riders,15,11,200
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2014,Kolkata Knight Riders,223,76,2488
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2014Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2014,Kings XI Punjab,245,117,2788
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2014,Kings XI Punjab,17,10,199
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2014,Kings XI Punjab,262,127,2987
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 518
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 518 Mumbai Indians 18 7 168
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 518 Kolkata Knight Riders 11 11 170
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2015,Mumbai Indians,18,7,168
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2015,Kolkata Knight Riders,11,11,170
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 519
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 519 Chennai Super Kings 13 3 150
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 519 Delhi Daredevils 15 2 149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2015,Chennai Super Kings,13,3,150
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2015,Delhi Daredevils,15,2,149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 520
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 520 Rajasthan Royals 10 7 162
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 520 Kings XI Punjab 14 3 136
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2015,Rajasthan Royals,10,7,162
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2015,Kings XI Punjab,14,3,136
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 521
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 521 Chennai Super Kings 16 14 209
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 521 Sunrisers Hyderabad 8 7 164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,13,3,150
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,16,14,209
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,29,17,359
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2015,Sunrisers Hyderabad,8,7,164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 522
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 522 Kolkata Knight Riders 23 3 177
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 522 Royal Challengers Bangalore 12 12 179
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,11,11,170
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kolkata Knight Riders,23,3,177
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kolkata Knight Riders,34,14,347
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2015,Royal Challengers Bangalore,12,12,179
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 523
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 523 Delhi Daredevils 12 10 184
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 523 Rajasthan Royals 15 8 186
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,15,2,149
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,12,10,184
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,27,12,333
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,10,7,162
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,15,8,186
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,25,15,348
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 524
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 524 Kings XI Punjab 21 4 177
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 524 Mumbai Indians 14 9 159
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Mumbai Indians,18,7,168
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Mumbai Indians,14,9,159
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Mumbai Indians,32,16,327
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,14,3,136
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,21,4,177
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,35,7,313
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 525
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 525 Royal Challengers Bangalore 15 7 166
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 525 Sunrisers Hyderabad 14 7 172
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,8,7,164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Sunrisers Hyderabad,14,7,172
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Sunrisers Hyderabad,22,14,336
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,12,12,179
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Royal Challengers Bangalore,15,7,166
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Royal Challengers Bangalore,27,19,345
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 526
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 526 Mumbai Indians 17 8 164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 526 Rajasthan Royals 15 3 165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,32,16,327
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,17,8,164
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,49,24,491
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,25,15,348
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,15,3,165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,40,18,513
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 527
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 527 Chennai Super Kings 19 5 165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 527 Kolkata Knight Riders 11 7 169
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,34,14,347
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,11,7,169
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,45,21,516
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,29,17,359
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,19,5,165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,48,22,524
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 528
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 528 Kings XI Punjab 7 10 165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 528 Delhi Daredevils 17 5 169
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Delhi Daredevils,27,12,333
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Delhi Daredevils,17,5,169
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Delhi Daredevils,44,17,502
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,35,7,313
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,7,10,165
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,42,17,478
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 529
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 529 Sunrisers Hyderabad 11 4 127
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 529 Rajasthan Royals 15 0 131
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,40,18,513
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,15,0,131
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,55,18,644
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,22,14,336
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,11,4,127
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,33,18,463
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 530
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 530 Mumbai Indians 14 10 183
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 530 Chennai Super Kings 21 9 189
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,49,24,491
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,14,10,183
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,63,34,674
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Chennai Super Kings,48,22,524
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Chennai Super Kings,21,9,189
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Chennai Super Kings,69,31,713
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 531
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 531 Delhi Daredevils 9 9 167
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 531 Sunrisers Hyderabad 10 8 163
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,44,17,502
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,9,9,167
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,53,26,669
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Sunrisers Hyderabad
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,33,18,463
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Sunrisers Hyderabad,10,8,163
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Sunrisers Hyderabad,43,26,626
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 532
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 532 Kings XI Punjab 10 7 155
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 532 Kolkata Knight Riders 21 4 159
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,45,21,516
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,21,4,159
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,66,25,675
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,42,17,478
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,10,7,155
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,52,24,633
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 533
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 533 Chennai Super Kings 18 3 156
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 533 Rajasthan Royals 12 6 157
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,69,31,713
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,18,3,156
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,87,34,869
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,55,18,644
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,12,6,157
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,67,24,801
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 534
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 534 Mumbai Indians 23 10 209
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 534 Royal Challengers Bangalore 20 8 191
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,63,34,674
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,23,10,209
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,86,44,883
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,27,19,345
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,20,8,191
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,47,27,536
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:158 - Iterating match id : 535
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:93  - 535 Delhi Daredevils 13 5 146
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:116 - 535 Kolkata Knight Riders 18 2 147
+2020-02-06 10:24:55 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,66,25,675
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,18,2,147
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,84,27,822
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,53,26,669
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,13,5,146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,66,31,815
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 536
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 536 Rajasthan Royals 16 8 191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 536 Kings XI Punjab 12 10 191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Rajasthan Royals,67,24,801
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Rajasthan Royals,16,8,191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Rajasthan Royals,83,32,992
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kings XI Punjab,52,24,633
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kings XI Punjab,12,10,191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kings XI Punjab,64,34,824
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 537
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 537 Sunrisers Hyderabad 15 7 176
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 537 Kolkata Knight Riders 6 5 101
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,84,27,822
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,6,5,101
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,90,32,923
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,43,26,626
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,15,7,176
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,58,33,802
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 538
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 538 Chennai Super Kings 17 10 181
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 538 Royal Challengers Bangalore 12 7 154
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,87,34,869
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,17,10,181
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,104,44,1050
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,47,27,536
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,12,7,154
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,59,34,690
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 539
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 539 Delhi Daredevils 13 11 190
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 539 Mumbai Indians 13 6 153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Mumbai Indians,86,44,883
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Mumbai Indians,13,6,153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Mumbai Indians,99,50,1036
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,66,31,815
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,13,11,190
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,79,42,1005
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 540
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 540 Rajasthan Royals 10 3 130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 540 Royal Challengers Bangalore 10 4 134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Rajasthan Royals,83,32,992
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Rajasthan Royals,10,3,130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Rajasthan Royals,93,35,1122
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,59,34,690
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,10,4,134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,69,38,824
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 541
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 541 Mumbai Indians 16 3 157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 541 Sunrisers Hyderabad 14 2 137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,99,50,1036
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,16,3,157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,115,53,1193
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,58,33,802
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Sunrisers Hyderabad,14,2,137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Sunrisers Hyderabad,72,35,939
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 542
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 542 Chennai Super Kings 19 7 192
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 542 Kings XI Punjab 5 2 95
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,104,44,1050
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,19,7,192
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,123,51,1242
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kings XI Punjab,64,34,824
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kings XI Punjab,5,2,95
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kings XI Punjab,69,36,919
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 543
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 543 Delhi Daredevils 8 1 95
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 543 Royal Challengers Bangalore 12 4 99
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,79,42,1005
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,8,1,95
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,87,43,1100
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,69,38,824
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,12,4,99
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,81,42,923
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 544
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 544 Sunrisers Hyderabad 17 3 150
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 544 Kings XI Punjab 7 2 130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kings XI Punjab,69,36,919
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kings XI Punjab,7,2,130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kings XI Punjab,76,38,1049
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,72,35,939
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,17,3,150
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,89,38,1089
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 545
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 545 Kolkata Knight Riders 16 6 171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 545 Delhi Daredevils 14 7 158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,90,32,923
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kolkata Knight Riders,16,6,171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kolkata Knight Riders,106,38,1094
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Delhi Daredevils,87,43,1100
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Delhi Daredevils,14,7,158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Delhi Daredevils,101,50,1258
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 546
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 546 Royal Challengers Bangalore 25 5 200
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,81,42,923
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Royal Challengers Bangalore,25,5,200
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Royal Challengers Bangalore,106,47,1123
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 547
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 547 Chennai Super Kings 12 3 134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 547 Kolkata Knight Riders 12 3 132
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,106,38,1094
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,12,3,132
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,118,41,1226
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,123,51,1242
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,12,3,134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,135,54,1376
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 548
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 548 Kings XI Punjab 9 3 118
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 548 Delhi Daredevils 11 4 119
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Delhi Daredevils,101,50,1258
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Delhi Daredevils,11,4,119
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Delhi Daredevils,112,54,1377
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,76,38,1049
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,9,3,118
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,85,41,1167
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 549
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 549 Mumbai Indians 18 6 187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 549 Rajasthan Royals 15 5 179
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,115,53,1193
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,18,6,187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,133,59,1380
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,93,35,1122
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,15,5,179
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,108,40,1301
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 550
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 550 Kolkata Knight Riders 11 5 111
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 550 Royal Challengers Bangalore 6 9 115
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,118,41,1226
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kolkata Knight Riders,11,5,111
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kolkata Knight Riders,129,46,1337
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,106,47,1123
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,6,9,115
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,112,56,1238
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 551
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 551 Sunrisers Hyderabad 23 6 192
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 551 Chennai Super Kings 16 5 170
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Chennai Super Kings,135,54,1376
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Chennai Super Kings,16,5,170
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Chennai Super Kings,151,59,1546
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,89,38,1089
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,23,6,192
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,112,44,1281
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 552
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 552 Mumbai Indians 17 4 172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 552 Kings XI Punjab 10 3 149
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,133,59,1380
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,17,4,172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,150,63,1552
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kings XI Punjab,85,41,1167
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kings XI Punjab,10,3,149
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kings XI Punjab,95,44,1316
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 553
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 553 Rajasthan Royals 20 5 189
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 553 Delhi Daredevils 13 8 175
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Delhi Daredevils,112,54,1377
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Delhi Daredevils,13,8,175
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Delhi Daredevils,125,62,1552
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Rajasthan Royals,108,40,1301
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Rajasthan Royals,20,5,189
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Rajasthan Royals,128,45,1490
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 554
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 554 Chennai Super Kings 12 5 148
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 554 Royal Challengers Bangalore 15 1 124
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,151,59,1546
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,12,5,148
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,163,64,1694
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,112,56,1238
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,15,1,124
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,127,57,1362
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 555
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 555 Kolkata Knight Riders 16 3 167
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 555 Sunrisers Hyderabad 8 6 132
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,129,46,1337
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kolkata Knight Riders,16,3,167
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kolkata Knight Riders,145,49,1504
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,112,44,1281
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Sunrisers Hyderabad,8,6,132
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Sunrisers Hyderabad,120,50,1413
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 556
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 556 Delhi Daredevils 15 6 152
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 556 Mumbai Indians 9 7 153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Mumbai Indians,150,63,1552
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Mumbai Indians,9,7,153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Mumbai Indians,159,70,1705
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,125,62,1552
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,15,6,152
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,140,68,1704
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 557
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 557 Royal Challengers Bangalore 14 18 226
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 557 Kings XI Punjab 8 3 88
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kings XI Punjab,95,44,1316
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kings XI Punjab,8,3,88
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kings XI Punjab,103,47,1404
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,127,57,1362
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Royal Challengers Bangalore,14,18,226
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Royal Challengers Bangalore,141,75,1588
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 558
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 558 Sunrisers Hyderabad 21 7 201
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 558 Rajasthan Royals 18 10 194
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,128,45,1490
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,18,10,194
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,146,55,1684
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,120,50,1413
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,21,7,201
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,141,57,1614
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 559
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 559 Chennai Super Kings 14 5 158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 559 Mumbai Indians 10 8 159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Mumbai Indians,159,70,1705
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Mumbai Indians,10,8,159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Mumbai Indians,169,78,1864
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,163,64,1694
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,14,5,158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,177,69,1852
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 560
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 560 Kings XI Punjab 11 11 183
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 560 Kolkata Knight Riders 20 8 184
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,145,49,1504
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,20,8,184
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,165,57,1688
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,103,47,1404
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,11,11,183
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,114,58,1587
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 561
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 561 Sunrisers Hyderabad 9 6 163
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 561 Delhi Daredevils 19 4 157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Delhi Daredevils,140,68,1704
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Delhi Daredevils,19,4,157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Delhi Daredevils,159,72,1861
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,141,57,1614
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,9,6,163
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,150,63,1777
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 562
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 562 Royal Challengers Bangalore 26 9 235
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 562 Mumbai Indians 15 11 196
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Mumbai Indians,169,78,1864
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Mumbai Indians,15,11,196
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Mumbai Indians,184,89,2060
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,141,75,1588
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Royal Challengers Bangalore,26,9,235
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Royal Challengers Bangalore,167,84,1823
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 563
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 563 Chennai Super Kings 14 5 157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 563 Rajasthan Royals 11 3 145
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,177,69,1852
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,14,5,157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,191,74,2009
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,146,55,1684
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,11,3,145
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,157,58,1829
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 564
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 564 Sunrisers Hyderabad 16 9 185
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 564 Kings XI Punjab 11 12 180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kings XI Punjab,114,58,1587
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kings XI Punjab,11,12,180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kings XI Punjab,125,70,1767
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,150,63,1777
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,16,9,185
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,166,72,1962
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 565
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 565 Chennai Super Kings 10 3 119
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 565 Delhi Daredevils 15 3 120
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Chennai Super Kings,191,74,2009
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Chennai Super Kings,10,3,119
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Chennai Super Kings,201,77,2128
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Delhi Daredevils,159,72,1861
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Delhi Daredevils,15,3,120
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Delhi Daredevils,174,75,1981
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 566
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 566 Kings XI Punjab 8 5 106
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 566 Royal Challengers Bangalore 6 2 84
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,125,70,1767
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,8,5,106
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,133,75,1873
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,167,84,1823
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,6,2,84
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,173,86,1907
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 567
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 567 Mumbai Indians 18 4 171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 567 Kolkata Knight Riders 19 3 166
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,184,89,2060
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,18,4,171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,202,93,2231
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,165,57,1688
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,19,3,166
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,184,60,1854
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 568
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 568 Sunrisers Hyderabad 11 6 135
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 568 Royal Challengers Bangalore 7 6 83
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,166,72,1962
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,11,6,135
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,177,78,2097
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,173,86,1907
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,7,6,83
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,180,92,1990
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 569
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 569 Kings XI Punjab 11 4 130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 569 Chennai Super Kings 12 3 134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Chennai Super Kings,201,77,2128
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Chennai Super Kings,12,3,134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Chennai Super Kings,213,80,2262
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Kings XI Punjab,133,75,1873
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Kings XI Punjab,11,4,130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Kings XI Punjab,144,79,2003
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 570
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 570 Rajasthan Royals 19 7 199
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 570 Kolkata Knight Riders 22 4 190
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Kolkata Knight Riders,184,60,1854
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Kolkata Knight Riders,22,4,190
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Kolkata Knight Riders,206,64,2044
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Rajasthan Royals,157,58,1829
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Rajasthan Royals,19,7,199
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Rajasthan Royals,176,65,2028
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 571
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 571 Delhi Daredevils 14 9 187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 571 Royal Challengers Bangalore 0 0 2
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Delhi Daredevils,174,75,1981
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Delhi Daredevils,14,9,187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Delhi Daredevils,188,84,2168
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,180,92,1990
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Royal Challengers Bangalore,0,0,2
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Royal Challengers Bangalore,180,92,1992
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 572
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 572 Sunrisers Hyderabad 8 1 113
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 572 Mumbai Indians 13 3 114
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Mumbai Indians,202,93,2231
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Mumbai Indians,13,3,114
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Mumbai Indians,215,96,2345
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Sunrisers Hyderabad,177,78,2097
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Sunrisers Hyderabad,8,1,113
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Sunrisers Hyderabad,185,79,2210
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 573
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 573 Mumbai Indians 11 12 187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 573 Chennai Super Kings 11 7 162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,215,96,2345
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,11,12,187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,226,108,2532
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Chennai Super Kings,213,80,2262
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Chennai Super Kings,11,7,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Chennai Super Kings,224,87,2424
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 574
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 574 Royal Challengers Bangalore 15 8 180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 574 Rajasthan Royals 11 0 109
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Rajasthan Royals
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Rajasthan Royals,176,65,2028
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Rajasthan Royals,11,0,109
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Rajasthan Royals,187,65,2137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,180,92,1992
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Royal Challengers Bangalore,15,8,180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Royal Challengers Bangalore,195,100,2172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 575
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 575 Royal Challengers Bangalore 11 5 139
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 575 Chennai Super Kings 9 3 140
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Chennai Super Kings,224,87,2424
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Chennai Super Kings,9,3,140
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Chennai Super Kings,233,90,2564
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Royal Challengers Bangalore,195,100,2172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Royal Challengers Bangalore,11,5,139
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Royal Challengers Bangalore,206,105,2311
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 576
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 576 Mumbai Indians 16 12 202
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 576 Chennai Super Kings 16 6 161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2015Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2015,Mumbai Indians,226,108,2532
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2015,Mumbai Indians,16,12,202
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2015,Mumbai Indians,242,120,2734
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2015Chennai Super Kings
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2015,Chennai Super Kings,233,90,2564
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2015,Chennai Super Kings,16,6,161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2015,Chennai Super Kings,249,96,2725
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 577
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 577 Mumbai Indians 12 3 121
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 577 Rising Pune Supergiants 8 8 126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2016,Mumbai Indians,12,3,121
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2016,Rising Pune Supergiants,8,8,126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 578
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 578 Delhi Daredevils 8 3 98
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 578 Kolkata Knight Riders 15 0 99
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2016,Delhi Daredevils,8,3,98
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2016,Kolkata Knight Riders,15,0,99
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 579
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 579 Kings XI Punjab 14 4 161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 579 Gujarat Lions 22 2 162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2016,Kings XI Punjab,14,4,161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2016,Gujarat Lions,22,2,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 580
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 580 Royal Challengers Bangalore 20 14 227
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 580 Sunrisers Hyderabad 15 9 182
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:218 - Freshly adding up1: 2016,Royal Challengers Bangalore,20,14,227
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:229 - Freshly adding up2: 2016,Sunrisers Hyderabad,15,9,182
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 581
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 581 Kolkata Knight Riders 11 8 187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 581 Mumbai Indians 17 9 188
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,12,3,121
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,17,9,188
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,29,12,309
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,15,0,99
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,11,8,187
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,26,8,286
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 582
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 582 Rising Pune Supergiants 13 6 163
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 582 Gujarat Lions 14 6 164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,8,8,126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,13,6,163
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,21,14,289
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,22,2,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,14,6,164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,36,8,326
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 583
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 583 Kings XI Punjab 11 2 111
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 583 Delhi Daredevils 12 3 113
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,8,3,98
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,12,3,113
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,20,6,211
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,14,4,161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,11,2,111
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,25,6,272
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 584
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 584 Sunrisers Hyderabad 9 5 142
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 584 Kolkata Knight Riders 16 2 146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,26,8,286
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,16,2,146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,42,10,432
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,15,9,182
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,9,5,142
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,24,14,324
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 585
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 585 Mumbai Indians 11 5 143
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 585 Gujarat Lions 14 3 147
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Mumbai Indians,29,12,309
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Mumbai Indians,11,5,143
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Mumbai Indians,40,17,452
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,36,8,326
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,14,3,147
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,50,11,473
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 586
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 586 Rising Pune Supergiants 18 0 152
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 586 Kings XI Punjab 15 4 153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,21,14,289
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,18,0,152
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,39,14,441
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kings XI Punjab,25,6,272
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kings XI Punjab,15,4,153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kings XI Punjab,40,10,425
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 587
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 587 Royal Challengers Bangalore 19 7 191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 587 Delhi Daredevils 22 4 192
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,20,6,211
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,22,4,192
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,42,10,403
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,20,14,227
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,19,7,191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,39,21,418
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 588
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 588 Mumbai Indians 9 5 142
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 588 Sunrisers Hyderabad 11 5 145
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Mumbai Indians,40,17,452
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Mumbai Indians,9,5,142
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Mumbai Indians,49,22,594
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,24,14,324
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,11,5,145
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,35,19,469
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 589
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 589 Kings XI Punjab 10 2 138
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 589 Kolkata Knight Riders 18 0 141
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,42,10,432
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,18,0,141
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,60,10,573
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,40,10,425
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,10,2,138
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,50,12,563
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 590
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 590 Royal Challengers Bangalore 12 7 170
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 590 Mumbai Indians 16 8 171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,49,22,594
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,16,8,171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,65,30,765
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,39,21,418
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,12,7,170
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,51,28,588
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 591
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 591 Gujarat Lions 11 1 135
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 591 Sunrisers Hyderabad 14 0 137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Gujarat Lions,50,11,473
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Gujarat Lions,11,1,135
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Gujarat Lions,61,12,608
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,35,19,469
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,14,0,137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,49,19,606
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 592
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 592 Royal Challengers Bangalore 14 6 185
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 592 Rising Pune Supergiants 16 4 172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,39,14,441
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Rising Pune Supergiants,16,4,172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Rising Pune Supergiants,55,18,613
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,51,28,588
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,14,6,185
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,65,34,773
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 593
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 593 Delhi Daredevils 12 5 164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 593 Mumbai Indians 15 4 154
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,65,30,765
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,15,4,154
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,80,34,919
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Delhi Daredevils,42,10,403
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Delhi Daredevils,12,5,164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Delhi Daredevils,54,15,567
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 594
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 594 Kings XI Punjab 9 6 143
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 594 Sunrisers Hyderabad 14 4 146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,50,12,563
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,9,6,143
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,59,18,706
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,49,19,606
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,14,4,146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,63,23,752
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 595
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 595 Royal Challengers Bangalore 18 4 180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 595 Gujarat Lions 15 5 182
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,61,12,608
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,15,5,182
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,76,17,790
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,65,34,773
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,18,4,180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,83,38,953
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 596
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 596 Rising Pune Supergiants 8 7 160
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 596 Kolkata Knight Riders 11 8 162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,55,18,613
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,8,7,160
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,63,25,773
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,60,10,573
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,11,8,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,71,18,735
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 597
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 597 Mumbai Indians 18 7 189
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 597 Kings XI Punjab 11 5 164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Mumbai Indians,80,34,919
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Mumbai Indians,18,7,189
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Mumbai Indians,98,41,1108
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kings XI Punjab,59,18,706
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kings XI Punjab,11,5,164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kings XI Punjab,70,23,870
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 598
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 598 Sunrisers Hyderabad 6 3 118
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 598 Rising Pune Supergiants 11 2 94
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,63,25,773
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Rising Pune Supergiants,11,2,94
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Rising Pune Supergiants,74,27,867
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,63,23,752
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,6,3,118
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,69,26,870
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 599
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 599 Gujarat Lions 14 7 172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 599 Delhi Daredevils 11 9 171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,54,15,567
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,11,9,171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,65,24,738
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Gujarat Lions,76,17,790
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Gujarat Lions,14,7,172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Gujarat Lions,90,24,962
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 600
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 600 Kolkata Knight Riders 17 3 174
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 600 Mumbai Indians 18 9 178
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,98,41,1108
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,18,9,178
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,116,50,1286
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,71,18,735
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,17,3,174
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,88,21,909
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 601
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 601 Rising Pune Supergiants 15 7 195
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 601 Gujarat Lions 22 3 196
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,74,27,867
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,15,7,195
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,89,34,1062
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,90,24,962
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,22,3,196
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,112,27,1158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 602
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 602 Delhi Daredevils 17 6 186
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 602 Kolkata Knight Riders 13 4 159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Delhi Daredevils,65,24,738
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Delhi Daredevils,17,6,186
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Delhi Daredevils,82,30,924
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,88,21,909
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,13,4,159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,101,25,1068
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 603
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 603 Sunrisers Hyderabad 19 8 194
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 603 Royal Challengers Bangalore 14 6 179
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,83,38,953
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Royal Challengers Bangalore,14,6,179
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Royal Challengers Bangalore,97,44,1132
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,69,26,870
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,19,8,194
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,88,34,1064
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 604
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 604 Kings XI Punjab 15 1 154
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 604 Gujarat Lions 11 2 131
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,70,23,870
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,15,1,154
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,85,24,1024
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,112,27,1158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,11,2,131
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,123,29,1289
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 605
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 605 Rising Pune Supergiants 10 6 159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 605 Mumbai Indians 15 5 161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,116,50,1286
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,15,5,161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,131,55,1447
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,89,34,1062
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,10,6,159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,99,40,1221
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 606
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 606 Royal Challengers Bangalore 18 7 185
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 606 Kolkata Knight Riders 13 9 189
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,101,25,1068
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,13,9,189
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,114,34,1257
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,97,44,1132
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,18,7,185
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,115,51,1317
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 607
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 607 Gujarat Lions 14 2 149
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 607 Delhi Daredevils 16 4 150
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,82,30,924
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,16,4,150
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,98,34,1074
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Gujarat Lions,123,29,1289
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Gujarat Lions,14,2,149
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Gujarat Lions,137,31,1438
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 608
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 608 Kolkata Knight Riders 13 5 164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 608 Kings XI Punjab 12 6 157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,114,34,1257
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,13,5,164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,127,39,1421
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kings XI Punjab,85,24,1024
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kings XI Punjab,12,6,157
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kings XI Punjab,97,30,1181
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 609
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 609 Delhi Daredevils 11 6 162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 609 Rising Pune Supergiants 11 6 166
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,99,40,1221
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Rising Pune Supergiants,11,6,166
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Rising Pune Supergiants,110,46,1387
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Delhi Daredevils,98,34,1074
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Delhi Daredevils,11,6,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Delhi Daredevils,109,40,1236
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 610
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 610 Gujarat Lions 8 3 126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 610 Sunrisers Hyderabad 13 2 129
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Gujarat Lions,137,31,1438
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Gujarat Lions,8,3,126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Gujarat Lions,145,34,1564
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,88,34,1064
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,13,2,129
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,101,36,1193
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 611
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 611 Rising Pune Supergiants 20 7 191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 611 Royal Challengers Bangalore 14 11 195
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,110,46,1387
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,20,7,191
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,130,53,1578
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,115,51,1317
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Royal Challengers Bangalore,14,11,195
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Royal Challengers Bangalore,129,62,1512
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 612
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 612 Kings XI Punjab 15 5 181
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 612 Delhi Daredevils 13 5 172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,109,40,1236
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,13,5,172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,122,45,1408
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,97,30,1181
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,15,5,181
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,112,35,1362
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 613
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 613 Sunrisers Hyderabad 20 4 177
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 613 Mumbai Indians 10 1 92
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,131,55,1447
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,10,1,92
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,141,56,1539
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,101,36,1193
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,20,4,177
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,121,40,1370
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 614
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 614 Kolkata Knight Riders 14 5 158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 614 Gujarat Lions 19 7 164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,127,39,1421
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,14,5,158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,141,44,1579
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,145,34,1564
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,19,7,164
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,164,41,1728
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 615
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 615 Royal Challengers Bangalore 15 3 175
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 615 Kings XI Punjab 19 2 174
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kings XI Punjab,112,35,1362
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kings XI Punjab,19,2,174
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kings XI Punjab,131,37,1536
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,129,62,1512
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,15,3,175
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,144,65,1687
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 616
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 616 Sunrisers Hyderabad 8 7 137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 616 Rising Pune Supergiants 10 4 133
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,130,53,1578
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Rising Pune Supergiants,10,4,133
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Rising Pune Supergiants,140,57,1711
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,121,40,1370
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,8,7,137
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,129,47,1507
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 617
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 617 Royal Challengers Bangalore 8 9 151
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 617 Mumbai Indians 9 8 153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Mumbai Indians,141,56,1539
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Mumbai Indians,9,8,153
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Mumbai Indians,150,64,1692
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,144,65,1687
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,8,9,151
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,152,74,1838
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 618
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 618 Sunrisers Hyderabad 14 2 146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 618 Delhi Daredevils 12 7 150
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,122,45,1408
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,12,7,150
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,134,52,1558
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,129,47,1507
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,14,2,146
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,143,49,1653
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 619
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 619 Mumbai Indians 5 8 124
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 619 Kings XI Punjab 12 2 127
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Mumbai Indians,150,64,1692
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Mumbai Indians,5,8,124
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Mumbai Indians,155,72,1816
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kings XI Punjab,131,37,1536
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kings XI Punjab,12,2,127
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kings XI Punjab,143,39,1663
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 620
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 620 Royal Challengers Bangalore 17 20 248
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 620 Gujarat Lions 9 2 104
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,164,41,1728
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,9,2,104
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,173,43,1832
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,152,74,1838
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,17,20,248
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,169,94,2086
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 621
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 621 Rising Pune Supergiants 7 2 103
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 621 Kolkata Knight Riders 6 3 66
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,140,57,1711
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Rising Pune Supergiants,7,2,103
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Rising Pune Supergiants,147,59,1814
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,141,44,1579
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,6,3,66
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,147,47,1645
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 622
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 622 Kings XI Punjab 23 3 179
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 622 Sunrisers Hyderabad 15 7 180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,143,39,1663
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,23,3,179
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,166,42,1842
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,143,49,1653
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,15,7,180
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,158,56,1833
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 623
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 623 Mumbai Indians 13 14 206
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 623 Delhi Daredevils 11 5 126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Mumbai Indians,155,72,1816
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Mumbai Indians,13,14,206
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Mumbai Indians,168,86,2022
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,134,52,1558
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,11,5,126
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,145,57,1684
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 624
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 624 Kolkata Knight Riders 16 6 183
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 624 Royal Challengers Bangalore 15 10 186
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,147,47,1645
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,16,6,183
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,163,53,1828
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,169,94,2086
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Royal Challengers Bangalore,15,10,186
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Royal Challengers Bangalore,184,104,2272
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 625
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 625 Delhi Daredevils 11 2 121
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 625 Rising Pune Supergiants 10 1 76
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,147,59,1814
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Rising Pune Supergiants,10,1,76
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Rising Pune Supergiants,157,60,1890
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Delhi Daredevils,145,57,1684
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Delhi Daredevils,11,2,121
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Delhi Daredevils,156,59,1805
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 626
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 626 Royal Challengers Bangalore 19 16 211
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 626 Kings XI Punjab 12 4 120
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kings XI Punjab,166,42,1842
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kings XI Punjab,12,4,120
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kings XI Punjab,178,46,1962
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,184,104,2272
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Royal Challengers Bangalore,19,16,211
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Royal Challengers Bangalore,203,120,2483
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 627
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 627 Kolkata Knight Riders 10 4 124
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 627 Gujarat Lions 11 4 125
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,163,53,1828
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,10,4,124
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,173,57,1952
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,173,43,1832
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,11,4,125
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,184,47,1957
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 628
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 628 Sunrisers Hyderabad 15 3 158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 628 Delhi Daredevils 14 3 161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Delhi Daredevils,156,59,1805
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Delhi Daredevils,14,3,161
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Delhi Daredevils,170,62,1966
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,158,56,1833
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,15,3,158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,173,59,1991
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 629
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 629 Kings XI Punjab 13 8 172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 629 Rising Pune Supergiants 14 8 173
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Rising Pune Supergiants
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Rising Pune Supergiants,157,60,1890
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Rising Pune Supergiants,14,8,173
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Rising Pune Supergiants,171,68,2063
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kings XI Punjab
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kings XI Punjab,178,46,1962
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kings XI Punjab,13,8,172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kings XI Punjab,191,54,2134
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 630
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 630 Mumbai Indians 17 7 172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 630 Gujarat Lions 24 5 173
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Mumbai Indians
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Mumbai Indians,168,86,2022
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Mumbai Indians,17,7,172
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Mumbai Indians,185,93,2194
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Gujarat Lions,184,47,1957
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Gujarat Lions,24,5,173
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Gujarat Lions,208,52,2130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 631
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 631 Kolkata Knight Riders 13 5 171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 631 Sunrisers Hyderabad 9 6 149
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,173,57,1952
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Kolkata Knight Riders,13,5,171
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Kolkata Knight Riders,186,62,2123
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,173,59,1991
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,9,6,149
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,182,65,2140
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 632
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 632 Delhi Daredevils 9 3 138
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 632 Royal Challengers Bangalore 13 2 139
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Delhi Daredevils
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Delhi Daredevils,170,62,1966
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Delhi Daredevils,9,3,138
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Delhi Daredevils,179,65,2104
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,203,120,2483
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Royal Challengers Bangalore,13,2,139
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Royal Challengers Bangalore,216,122,2622
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 633
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 633 Gujarat Lions 12 8 158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 633 Royal Challengers Bangalore 12 7 159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Gujarat Lions,208,52,2130
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Gujarat Lions,12,8,158
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Gujarat Lions,220,60,2288
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,216,122,2622
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Royal Challengers Bangalore,12,7,159
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Royal Challengers Bangalore,228,129,2781
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 634
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 634 Sunrisers Hyderabad 14 7 162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 634 Kolkata Knight Riders 8 3 140
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Kolkata Knight Riders
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Kolkata Knight Riders,186,62,2123
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Kolkata Knight Riders,8,3,140
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Kolkata Knight Riders,194,65,2263
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,182,65,2140
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,14,7,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,196,72,2302
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 635
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 635 Gujarat Lions 22 3 162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 635 Sunrisers Hyderabad 15 7 163
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Gujarat Lions
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Gujarat Lions,220,60,2288
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Gujarat Lions,22,3,162
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Gujarat Lions,242,63,2450
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,196,72,2302
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Sunrisers Hyderabad,15,7,163
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Sunrisers Hyderabad,211,79,2465
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:158 - Iterating match id : 636
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:93  - 636 Sunrisers Hyderabad 20 10 208
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:116 - 636 Royal Challengers Bangalore 12 13 200
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:192 - Updating existing as TeamTwo : 2016Royal Challengers Bangalore
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:194 - OLD VALUE TeamOne: 2016,Royal Challengers Bangalore,228,129,2781
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:196 - ADDING THIS TO OLD TeamTwo: 2016,Royal Challengers Bangalore,12,13,200
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:199 - NEW VALUE TeamTwo: 2016,Royal Challengers Bangalore,240,142,2981
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:171 - Updating existing as TeamOne : 2016Sunrisers Hyderabad
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:172 - OLD VALUE TeamOne: 2016,Sunrisers Hyderabad,211,79,2465
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:174 - ADDING THIS TO OLD TeamOne: 2016,Sunrisers Hyderabad,20,10,208
+2020-02-06 10:24:56 DEBUG CricketServiceImpl:177 - NEW VALUE TeamOne: 2016,Sunrisers Hyderabad,231,89,2673
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:47  - SCORE DETAILS LIST SIZE : 84
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Sunrisers Hyderabad,220,70,2349
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Royal Challengers Bangalore,133,75,1845
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Mumbai Indians,224,117,2789
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Rising Pune Supergiant,197,89,2470
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Gujarat Lions,218,92,2406
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Kolkata Knight Riders,228,87,2484
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Kings XI Punjab,189,88,2207
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2017,Delhi Daredevils,202,87,2219
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Kolkata Knight Riders,162,76,1942
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Royal Challengers Bangalore,187,59,1983
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Chennai Super Kings,244,86,2520
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Kings XI Punjab,231,95,2464
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Rajasthan Royals,259,85,2601
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Delhi Daredevils,218,54,2118
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Mumbai Indians,197,76,2080
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2008,Deccan Chargers,205,92,2229
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Mumbai Indians,145,54,1897
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Chennai Super Kings,192,73,2231
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Royal Challengers Bangalore,192,67,2280
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Rajasthan Royals,147,45,1688
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Kings XI Punjab,140,61,1928
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Delhi Daredevils,188,51,2131
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Kolkata Knight Riders,140,56,1757
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2009,Deccan Chargers,173,99,2408
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Kolkata Knight Riders,199,63,2144
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Deccan Chargers,197,84,2374
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Mumbai Indians,261,75,2738
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Rajasthan Royals,202,74,2179
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Kings XI Punjab,233,57,2278
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Delhi Daredevils,190,58,2155
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Royal Challengers Bangalore,214,77,2401
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2010,Chennai Super Kings,212,97,2595
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Chennai Super Kings,204,91,2560
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Kolkata Knight Riders,191,45,2023
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Deccan Chargers,194,48,2140
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Rajasthan Royals,153,42,1687
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Kochi Tuskers Kerala,170,53,1901
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Royal Challengers Bangalore,225,94,2469
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Delhi Daredevils,185,75,2087
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Mumbai Indians,221,57,2288
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Kings XI Punjab,219,74,2224
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2011,Pune Warriors,154,60,1775
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Chennai Super Kings,223,102,2831
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Mumbai Indians,219,80,2462
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Kolkata Knight Riders,210,69,2504
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Delhi Daredevils,232,97,2645
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Pune Warriors,181,60,2321
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Rajasthan Royals,246,69,2516
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Kings XI Punjab,226,61,2390
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Royal Challengers Bangalore,186,118,2472
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2012,Deccan Chargers,188,77,2312
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Delhi Daredevils,210,51,2234
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Kolkata Knight Riders,222,57,2290
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Royal Challengers Bangalore,229,103,2571
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Mumbai Indians,253,117,2975
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Sunrisers Hyderabad,196,52,2298
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Pune Warriors,190,76,2262
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Rajasthan Royals,267,70,2705
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Chennai Super Kings,241,84,2778
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2013,Kings XI Punjab,244,65,2428
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Kolkata Knight Riders,223,76,2488
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Mumbai Indians,197,86,2353
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Delhi Daredevils,177,63,2081
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Royal Challengers Bangalore,165,92,2093
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Chennai Super Kings,205,112,2650
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Kings XI Punjab,262,127,2987
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Sunrisers Hyderabad,167,72,2102
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2014,Rajasthan Royals,166,86,2155
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Mumbai Indians,242,120,2734
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Kolkata Knight Riders,206,64,2044
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Chennai Super Kings,249,96,2725
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Delhi Daredevils,188,84,2168
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Rajasthan Royals,187,65,2137
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Kings XI Punjab,144,79,2003
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Sunrisers Hyderabad,185,79,2210
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2015,Royal Challengers Bangalore,206,105,2311
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Mumbai Indians,185,93,2194
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Rising Pune Supergiants,171,68,2063
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Delhi Daredevils,179,65,2104
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Kolkata Knight Riders,194,65,2263
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Kings XI Punjab,191,54,2134
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Gujarat Lions,242,63,2450
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Royal Challengers Bangalore,240,142,2981
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:?   - 2016,Sunrisers Hyderabad,231,89,2673
+2020-02-06 10:24:56 DEBUG TestCricketServiceImpl:53  - TOTAL ALL SCORES : 194141

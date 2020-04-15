@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://fedex.com/ws/ship/v17" 
+		xmlns:tns="http://fedex.com/ws/ship/v17" 
+		elementFormDefault="qualified"
+		xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+		
+<import namespace="http://schemas.xmlsoap.org/soap/envelope/" schemaLocation="soapenv.xsd" />
+
+
+<group name="contactgrp">
+	<sequence>
+		<element name="PersonName" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="CompanyName" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="PhoneNumber" type="string" minOccurs="1" maxOccurs="1"/>
+	</sequence>
+</group>
+
+<group name="addressgroup">
+	<sequence>
+		<element name="StreetLines" type="string" minOccurs="1" maxOccurs="4"/>
+		<element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="StateOrProvinceCode" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="PostalCode" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="CountryCode" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="Residential" type="boolean" minOccurs="0" maxOccurs="1"/>						
+	</sequence>
+</group>
+
+<group name="currencygroup">
+	<sequence>
+		<element name="Currency" type="string" minOccurs="1" maxOccurs="1"/>
+		<element name="Amount" type="float" minOccurs="1" maxOccurs="1"/>
+	</sequence>
+</group>
+
+<element name="ProcessShipmentRequest">
+	<complexType>
+		<sequence>
+			<element name="WebAuthenticationDetail">
+				<complexType>
+					<sequence>
+						<element name="UserCredential">
+							<complexType>
+								<sequence>
+									<element name="Key" type="string" />
+									<element name="Password" type="string" />
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+			
+			<element name="ClientDetail">
+				<complexType>
+					<sequence>
+						<element name="AccountNumber" type="string" />
+						<element name="MeterNumber" type="string" />
+					</sequence>
+				</complexType>
+			</element>
+			
+			<element name="Version">
+				<complexType>
+					<sequence>
+						<element name="ServiceId" type="string" />
+						<element name="Major" type="int" />
+						<element name="Intermediate" type="int" />
+						<element name="Minor" type="int" />
+					</sequence>
+				</complexType>
+			</element>
+			
+			<element name="RequestedShipment">
+				<complexType>
+					<sequence>
+						<element name="ShipTimestamp" type="string" />
+						<element name="DropoffType" type="string" />
+						<element name="ServiceType" type="string" />
+						<element name="PackagingType" type="string" />
+						<element name="Shipper">
+							<complexType>
+								<sequence>
+									<element name="Contact">
+										<complexType>
+											<group ref="tns:contactgrp" />
+										</complexType>
+									</element>
+									
+									<element name="Address">
+										<complexType>
+											<group ref="tns:addressgroup"></group>
+										</complexType>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+						
+						<element name="Recipient">
+							<complexType>
+								<sequence>
+									<element name="Contact">
+										<complexType>
+											<group ref="tns:contactgrp" />
+										</complexType>
+									</element>
+									
+									<element name="Address">
+										<complexType>
+											<group ref="tns:addressgroup" />							                 
+										</complexType>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+						
+						<element name="ShippingChargesPayment">
+							<complexType>
+								<sequence>
+									<element name="PaymentType" type="string" />
+									<element name="Payor">
+										<complexType>
+											<sequence>
+												<element name="ResponsibleParty">
+													<complexType>
+														<sequence>
+															<element name="AccountNumber" type="string" />
+															<element name="Address">
+																<complexType>
+																	<sequence>
+																		<element name="PostalCode" type="string" nillable="true" />
+																		<element name="CountryCode" type="string" />
+																	</sequence>
+																</complexType>
+															</element>
+														</sequence>
+													</complexType>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+						
+						<element name="LabelSpecification">
+							<complexType>
+								<sequence>
+									<element name="LabelFormatType" type="string" />
+									<element name="ImageType" type="string" />
+								</sequence>
+							</complexType>
+						</element>
+						
+						<element name="PackageCount" type="int" />
+						
+						<element name="RequestedPackageLineItems">
+							<complexType>
+								<sequence>
+									<element name="Weight">
+										<complexType>
+											<sequence>
+												<element name="Units" type="string" />
+												<element name="Value" type="int" />
+											</sequence>
+										</complexType>
+									</element>
+									
+									<element name="Dimensions">
+										<complexType>
+											<sequence>
+												<element name="Length" type="int" />
+												<element name="Width" type="int" />
+												<element name="Height" type="int" />
+												<element name="Units" type="string" />
+											</sequence>
+										</complexType>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+
+<element name="ProcessShipmentReply">
+	<complexType>
+		<sequence>
+			<element name="HighestSeverity" type="string" />
+			<element name="Notifications">
+				<complexType>
+					<sequence>
+						<element name="Severity" type="string"/>
+						<element name="Source" type="string"/>
+						<element name="Code" type="int"/>
+						<element name="Message" type="string"/>
+						<element name="LocalizedMessage" type="string"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="Version">
+				<complexType>
+					<sequence>
+						<element name="ServiceId" type="string"/>
+						<element name="Major" type="int"/>
+						<element name="Intermediate" type="int"/>
+						<element name="Minor" type="int"/>
+					</sequence>
+				</complexType>
+			</element>
+			<element name="JobId" type="string" />
+			<element name="CompletedShipmentDetail">
+				<complexType>
+					<sequence>
+						<element name="UsDomestic" type="string" />
+						<element name="CarrierCode" type="string" />
+						<element name="MasterTrackingId">
+							<complexType>
+								<sequence>
+									<element name="TrackingIdType" type="string" />
+									<element name="TrackingNumber" type="integer" />
+								</sequence>
+							</complexType>
+						</element>
+						<element name="ServiceTypeDescription" type="string" />
+						<element name="PackagingDescription" type="string" />
+						
+						<element name="OperationalDetail">
+							<complexType>
+								<sequence>
+									<element name="OriginLocationNumber" type="int" />
+									<element name="DestinationLocationNumber" type="int" />
+									<element name="TransitTime" type="string" />
+									<element name="IneligibleForMoneyBackGuarantee" type="boolean" />
+									<element name="DeliveryEligibilities" type="string" />
+									<element name="ServiceCode" type="integer" />
+									<element name="PackagingCode" type="integer" />
+								</sequence>
+							</complexType>
+						</element>
+						
+						<element name="ShipmentRating">
+							<complexType>
+								<sequence>
+									<element name="ActualRateType" type="string" />
+									<element name="ShipmentRateDetails">
+										<complexType>
+											<sequence>
+												<element name="RateType" type="string" />
+												<element name="RateZone" type="int" />
+												<element name="RatedWeightMethod" type="string" />
+												<element name="DimDivisor" type="int" />
+												<element name="FuelSurchargePercent" type="int" />
+												<element name="TotalBillingWeight">
+													<complexType>
+														<sequence>
+															<element name="Units" type="string" />
+															<element name="Value" type="string" />
+														</sequence>
+													</complexType>
+												</element>
+												<element name="TotalBaseCharge">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalFreightDiscounts">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalNetFreight">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalSurcharges">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalNetFedExCharge">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalTaxes">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalNetCharge">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalRebates">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalDutiesAndTaxes">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalNetChargeWithDutiesAndTaxes">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												
+												<element name="Surcharges">
+													<complexType>
+														<sequence>
+															<element name="SurchargeType" type="string" />
+															<element name="Level" type="string" />
+															<element name="Description" type="string" />
+															<element name="Amount">
+																<complexType>
+																	<sequence>
+																		<element name="Currency" type="string" />
+																		<element name="Amount" type="string" />
+																	</sequence>
+																</complexType>
+															</element>
+														</sequence>
+													</complexType>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									
+								</sequence>
+							</complexType>
+						</element>
+						
+						<element name="CompletedPackageDetails">
+							<complexType>
+								<sequence>
+									<element name="SequenceNumber" type="int" />
+									<element name="TrackingIds">
+										<complexType>
+											<sequence>
+												<element name="TrackingIdType" type="string" />
+												<element name="TrackingNumber" type="int" />
+											</sequence>
+										</complexType>
+									</element>
+									<element name="GroupNumber" type="int" />
+									<element name="PackageRating">
+										<complexType>
+											<sequence>
+												<element name="ActualRateType" type="string" />
+												<element name="PackageRateDetails">
+													<complexType>
+														<sequence>
+															<element name="RateType" type="string" />
+															<element name="RatedWeightMethod" type="string" />
+														</sequence>
+													</complexType>
+												</element>
+												<element name="BillingWeight">
+													<complexType>
+														<sequence>
+															<element name="Units" type="string" />
+															<element name="Value" type="int" />
+														</sequence>
+													</complexType>
+												</element>
+												<element name="BaseCharge">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalFreightDiscounts">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="NetFreight">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalSurcharges">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="NetFedExCharge">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalTaxes">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="NetCharge">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="TotalRebates">
+													<complexType>
+														<group ref="tns:currencygroup"></group>
+													</complexType>
+												</element>
+												<element name="Surcharges">
+													<complexType>
+														<sequence>
+															<element name="SurchargeType" type="string" />
+															<element name="Level" type="string" />
+															<element name="Description" type="string" />
+															<element name="Amount">
+																<complexType>
+																	<sequence>
+																		<element name="Currency" type="string" />
+																		<element name="Amount" type="string" />
+																	</sequence>
+																</complexType>
+															</element>
+														</sequence>
+													</complexType>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									
+									<element name="OperationalDetail">
+										<complexType>
+											<sequence>
+												<element name="OperationalInstructions" minOccurs="1" maxOccurs="unbounded">
+													<complexType>
+														<sequence>
+															<element name="Number" type="int" />
+															<element name="Content" type="string" />
+														</sequence>
+													</complexType>
+												</element>
+												
+												<element name="Barcodes">
+													<complexType>
+														<sequence>
+															<element name="BinaryBarcodes">
+																<complexType>
+																	<sequence>
+																		<element name="Type" type="string" />
+																		<element name="Value" type="string" />
+																	</sequence>
+																</complexType>
+															</element>
+															<element name="StringBarcodes">
+																<complexType>
+																	<sequence>
+																		<element name="Type" type="string" />
+																		<element name="Value" type="string" />
+																	</sequence>
+																</complexType>
+															</element>
+															<element name="GroundServiceCode" type="string" />
+														</sequence>
+													</complexType>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+									
+									<element name="Label">
+										<complexType>
+											<sequence>
+												<element name="Type" type="string" />
+												<element name="ShippingDocumentDisposition" type="string" />
+												<element name="ImageType" type="string" />
+												<element name="Resolution" type="int" />
+												<element name="CopiesToPrint" type="int" />
+												<element name="Parts">
+													<complexType>
+														<sequence>
+															<element name="DocumentPartSequenceNumber" type="int" />
+															<element name="Image" type="int" />
+														</sequence>
+													</complexType>
+												</element>
+											</sequence>
+										</complexType>
+									</element>
+								</sequence>
+							</complexType>
+						</element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

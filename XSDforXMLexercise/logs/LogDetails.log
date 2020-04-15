@@ -1,0 +1,38 @@
+2020-01-14 16:54:12 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 16:54:37 ERROR XMLValidation   :38  - Exception : cvc-complex-type.2.4.a: Invalid content was found starting with element 'EntityCollection'. One of '{EntityField}' is expected.
+2020-01-14 16:54:37 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-14 16:56:55 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 16:57:19 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 16:59:23 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 17:00:22 ERROR XMLValidation   :38  - Exception : cvc-complex-type.2.4.a: Invalid content was found starting with element 'Events'. One of '{SystemEvents}' is expected.
+2020-01-14 17:00:22 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-14 17:01:12 ERROR XMLValidation   :38  - Exception : cvc-complex-type.2.4.a: Invalid content was found starting with element 'Events'. One of '{SystemEvents}' is expected.
+2020-01-14 17:01:12 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-14 17:02:23 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 17:05:19 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 17:05:45 ERROR XMLValidation   :38  - Exception : cvc-enumeration-valid: Value 'hghgs' is not facet-valid with respect to enumeration '[SQL, HAZELCAST]'. It must be a value from the enumeration.
+2020-01-14 17:05:45 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-14 17:07:15 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-14 17:10:48 ERROR XMLValidation   :38  - Exception : cvc-complex-type.3.2.2: Attribute 'required' is not allowed to appear in element 'EntityKey'.
+2020-01-14 17:10:48 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-14 18:35:06 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-15 10:47:00 ERROR XMLValidation   :38  - Exception : cvc-elt.1: Cannot find the declaration of element 'LeapDataServices'.
+2020-01-15 10:47:00 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:48:30 ERROR XMLValidation   :38  - Exception : cvc-complex-type.2.4.d: Invalid content was found starting with element 'EntityKey'. No child element is expected at this point.
+2020-01-15 10:48:30 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:51:00 ERROR XMLValidation   :38  - Exception : cvc-complex-type.2.4.d: Invalid content was found starting with element 'EntityKey'. No child element is expected at this point.
+2020-01-15 10:51:00 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:52:30 ERROR XMLValidation   :38  - Exception : cvc-complex-type.2.4.b: The content of element 'EntityReadKeysMapping' is not complete. One of '{"http://www.example.org/entity":EntityKey}' is expected.
+2020-01-15 10:52:30 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:53:13 ERROR XMLValidation   :38  - Exception : cvc-complex-type.3.2.2: Attribute 'required' is not allowed to appear in element 'EntityKey'.
+2020-01-15 10:53:13 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:55:21 ERROR XMLValidation   :38  - Exception : cvc-datatype-valid.1.2.1: 'mandatory' is not a valid value for 'boolean'.
+2020-01-15 10:55:21 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:56:02 ERROR XMLValidation   :38  - Exception : cvc-complex-type.4: Attribute 'sequence' must appear on element 'EntityKey'.
+2020-01-15 10:56:02 DEBUG XMLValidation   :50  - Validation Result :false
+2020-01-15 10:56:20 DEBUG XMLValidation   :50  - Validation Result :true
+2020-01-15 10:59:57 DEBUG XMLValidation   :52  - Validation Result :true
+2020-01-15 11:00:18 DEBUG XMLValidation   :52  - Validation Result :true
+2020-01-15 11:03:11 DEBUG XMLValidation   :52  - Validation Result :true
+2020-01-15 11:04:50 DEBUG XMLValidation   :52  - Validation Result :true
+2020-01-15 11:05:22 DEBUG XMLValidation   :52  - Validation Result :true

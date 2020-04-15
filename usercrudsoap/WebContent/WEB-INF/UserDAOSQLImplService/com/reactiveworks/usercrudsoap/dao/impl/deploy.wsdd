@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from UserDAOSQLImplService WSDL service -->
+
+  <service name="UserDAOSQLImpl" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://impl.dao.usercrudsoap.reactiveworks.com"/>
+      <parameter name="wsdlServiceElement" value="UserDAOSQLImplService"/>
+      <parameter name="schemaQualified" value="http://pojo.usercrudsoap.reactiveworks.com,http://impl.dao.usercrudsoap.reactiveworks.com,http://exception.dao.usercrudsoap.reactiveworks.com"/>
+      <parameter name="wsdlServicePort" value="UserDAOSQLImpl"/>
+      <parameter name="className" value="com.reactiveworks.usercrudsoap.dao.impl.UserDAOSQLImpl"/>
+      <parameter name="wsdlPortType" value="UserDAOSQLImpl"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:retNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="createUser" qname="operNS:createUser" returnQName="retNS:createUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://pojo.usercrudsoap.reactiveworks.com" qname="pns:user" type="tns:User"/>
+        <fault xmlns:fns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://exception.dao.usercrudsoap.reactiveworks.com" name="UserDAOException" qname="fns:fault" class="com.reactiveworks.usercrudsoap.dao.exception.UserDAOException" type="tns:UserDAOException"/>
+      </operation>
+      <operation xmlns:operNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:retNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:rtns="http://pojo.usercrudsoap.reactiveworks.com" name="getUserByUserName" qname="operNS:getUserByUserName" returnQName="retNS:getUserByUserNameReturn" returnType="rtns:User" soapAction="">
+        <parameter xmlns:pns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:userName" type="tns:string"/>
+        <fault xmlns:fns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://exception.dao.usercrudsoap.reactiveworks.com" name="UserDAOException" qname="fns:fault" class="com.reactiveworks.usercrudsoap.dao.exception.UserDAOException" type="tns:UserDAOException"/>
+      </operation>
+      <operation xmlns:operNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:retNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="deleteUserByUserId" qname="operNS:deleteUserByUserId" returnQName="retNS:deleteUserByUserIdReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:userId" type="tns:string"/>
+        <fault xmlns:fns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://exception.dao.usercrudsoap.reactiveworks.com" name="UserDAOException" qname="fns:fault" class="com.reactiveworks.usercrudsoap.dao.exception.UserDAOException" type="tns:UserDAOException"/>
+      </operation>
+      <operation xmlns:operNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:retNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="updateUser" qname="operNS:updateUser" returnQName="retNS:updateUserReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://pojo.usercrudsoap.reactiveworks.com" qname="pns:user" type="tns:User"/>
+        <fault xmlns:fns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://exception.dao.usercrudsoap.reactiveworks.com" name="UserDAOException" qname="fns:fault" class="com.reactiveworks.usercrudsoap.dao.exception.UserDAOException" type="tns:UserDAOException"/>
+      </operation>
+      <operation xmlns:operNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:retNS="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:rtns="http://pojo.usercrudsoap.reactiveworks.com" name="getUserByUserID" qname="operNS:getUserByUserID" returnQName="retNS:getUserByUserIDReturn" returnType="rtns:User" soapAction="">
+        <parameter xmlns:pns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:userId" type="tns:string"/>
+        <fault xmlns:fns="http://impl.dao.usercrudsoap.reactiveworks.com" xmlns:tns="http://exception.dao.usercrudsoap.reactiveworks.com" name="UserDAOException" qname="fns:fault" class="com.reactiveworks.usercrudsoap.dao.exception.UserDAOException" type="tns:UserDAOException"/>
+      </operation>
+      <parameter name="allowedMethods" value="deleteUserByUserId getUserByUserName updateUser createUser getUserByUserID"/>
+
+      <typeMapping xmlns:ns="http://exception.dao.usercrudsoap.reactiveworks.com" qname="ns:UserDAOException" type="java:com.reactiveworks.usercrudsoap.dao.exception.UserDAOException" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+      <typeMapping xmlns:ns="http://pojo.usercrudsoap.reactiveworks.com" qname="ns:User" type="java:com.reactiveworks.usercrudsoap.pojo.User" serializer="org.apache.axis.encoding.ser.BeanSerializerFactory" deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory" encodingStyle=""/>
+  </service>
+</deployment>

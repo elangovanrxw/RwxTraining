@@ -1,0 +1,92 @@
+2020-02-06 14:07:29 DEBUG CricketDataReaderDAOFactory:35  - Creating new instance for delivery..
+2020-02-06 14:07:29 DEBUG CricketDataReaderDAOFactory:38  - Returning instance of delivery..
+2020-02-06 14:07:29 INFO  DeliveriesDAOCSVImpl:87  - Deliveries file is found at location : file:/G:/EclipseIDE/JAVA_RW/cricketanalyzer/target/classes/deliveries.csv
+2020-02-06 14:07:31 DEBUG CricketDataReaderDAOFactory:50  - Creating new instance for matches..
+2020-02-06 14:07:31 DEBUG CricketDataReaderDAOFactory:53  - Returning instance of matches..
+2020-02-06 14:07:31 INFO  MatchesDAOCSVImpl:85  - Matches file is found at location : file:/G:/EclipseIDE/JAVA_RW/cricketanalyzer/target/classes/matches.csv
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:47  - SCORE DETAILS LIST SIZE : 84
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Sunrisers Hyderabad,220,70,2349
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Royal Challengers Bangalore,133,75,1845
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Mumbai Indians,225,118,2800
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Rising Pune Supergiant,197,89,2470
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Gujarat Lions,218,92,2412
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Kolkata Knight Riders,228,87,2484
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Kings XI Punjab,189,88,2207
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2017,Delhi Daredevils,202,87,2219
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Kolkata Knight Riders,162,76,1942
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Royal Challengers Bangalore,187,59,1983
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Chennai Super Kings,244,86,2520
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Kings XI Punjab,231,95,2464
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Rajasthan Royals,259,85,2601
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Delhi Daredevils,218,54,2118
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Mumbai Indians,197,76,2080
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2008,Deccan Chargers,205,92,2229
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Mumbai Indians,145,54,1897
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Chennai Super Kings,192,73,2231
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Royal Challengers Bangalore,192,67,2280
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Rajasthan Royals,148,47,1706
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Kings XI Punjab,140,61,1928
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Delhi Daredevils,188,51,2131
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Kolkata Knight Riders,143,56,1772
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2009,Deccan Chargers,173,99,2408
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Kolkata Knight Riders,199,63,2144
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Deccan Chargers,197,84,2374
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Mumbai Indians,261,75,2738
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Rajasthan Royals,202,74,2179
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Kings XI Punjab,234,58,2288
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Delhi Daredevils,190,58,2155
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Royal Challengers Bangalore,214,77,2401
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2010,Chennai Super Kings,212,98,2604
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Chennai Super Kings,204,91,2560
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Kolkata Knight Riders,191,45,2023
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Deccan Chargers,194,48,2140
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Rajasthan Royals,153,42,1687
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Kochi Tuskers Kerala,170,53,1901
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Royal Challengers Bangalore,225,94,2469
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Delhi Daredevils,185,75,2087
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Mumbai Indians,221,57,2288
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Kings XI Punjab,219,74,2224
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2011,Pune Warriors,154,60,1775
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Chennai Super Kings,223,102,2831
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Mumbai Indians,219,80,2462
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Kolkata Knight Riders,210,69,2504
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Delhi Daredevils,232,97,2645
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Pune Warriors,181,60,2321
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Rajasthan Royals,246,69,2516
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Kings XI Punjab,226,61,2390
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Royal Challengers Bangalore,186,118,2472
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2012,Deccan Chargers,188,77,2312
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Delhi Daredevils,211,52,2245
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Kolkata Knight Riders,222,57,2290
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Royal Challengers Bangalore,230,106,2601
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Mumbai Indians,253,117,2975
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Sunrisers Hyderabad,196,54,2318
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Pune Warriors,190,76,2262
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Rajasthan Royals,267,70,2705
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Chennai Super Kings,241,84,2778
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2013,Kings XI Punjab,244,65,2428
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Kolkata Knight Riders,223,77,2499
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Mumbai Indians,197,86,2353
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Delhi Daredevils,177,63,2081
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Royal Challengers Bangalore,165,92,2093
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Chennai Super Kings,205,112,2650
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Kings XI Punjab,262,127,2987
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Sunrisers Hyderabad,167,72,2102
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2014,Rajasthan Royals,167,86,2166
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Mumbai Indians,242,120,2734
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Kolkata Knight Riders,206,64,2044
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Chennai Super Kings,249,96,2725
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Delhi Daredevils,188,84,2168
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Rajasthan Royals,188,65,2143
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Kings XI Punjab,147,79,2018
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Sunrisers Hyderabad,185,79,2210
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2015,Royal Challengers Bangalore,206,105,2311
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Mumbai Indians,185,93,2194
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Rising Pune Supergiants,171,68,2063
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Delhi Daredevils,179,65,2104
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Kolkata Knight Riders,194,65,2263
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Kings XI Punjab,191,54,2134
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Gujarat Lions,242,63,2450
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Royal Challengers Bangalore,240,142,2981
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:?   - 2016,Sunrisers Hyderabad,231,89,2673
+2020-02-06 14:07:34 DEBUG TestCricketServiceImpl:54  - TOTAL ALL SCORES : 194314

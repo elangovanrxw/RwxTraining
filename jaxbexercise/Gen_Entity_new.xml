@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LeapDataServices xmlns="http://www.example.org/entity" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:noNamespaceSchemaLocation="enity.xsd">
+    <Entity isEnable="true" name="WMS_Employee">
+        <EntityFields>
+            <EntityField name="Emp_Id" type="long"/>
+            <EntityField name="Emp_Name" type="string"/>
+            <EntityField name="Emp_Salary" type="double"/>
+            <EntityField name="Emp_Email" type="string"/>
+        </EntityFields>
+        <EntityCollection collectionName="WMS_Employees" collectionType="list"/>
+        <EntityAccessConfig type="SQL">
+            <EntityTable autoCreate="true" tablename="employee1">
+                <EntityColumns>
+                    <EntityColumn entityFieldNameRef="Emp_Id" hasAutoIncrement="true" sequence="2" name="id">
+                        <Attribute name="dataType" value="long"/>
+                        <Attribute name="isPrimaryKey" value="true"/>
+                        <Attribute name="autoIncrement" value="SNOWFLAKE" attributeDatatype="Number" type="MANUAL"/>
+                    </EntityColumn>
+                    <EntityColumn entityFieldNameRef="Emp_Name" name="empName">
+                        <Attribute name="DataType" value="varchar" attributeDatatype="String" size="30"/>
+                    </EntityColumn>
+                    <EntityColumn entityFieldNameRef="Emp_Salary" name="salary">
+                        <Attribute name="DataType" value="Double"/>
+                    </EntityColumn>
+                    <EntityColumn entityFieldNameRef="Emp_Email" sequence="1" name="email">
+                        <Attribute name="DataType" value="varchar" size="30"/>
+                        <Attribute name="isNotNull" value="true"/>
+                    </EntityColumn>
+                </EntityColumns>
+                <EntityIndexs>
+                    <EntityIndex entityColumnRef="id"/>
+                </EntityIndexs>
+            </EntityTable>
+            <EntityAccess accessMethod="GET" accessType="read" authorizedResource="getWmsEmployeeById">
+                <EntityReadKeysMapping>
+                    <EntityKey name="Emp_Id" sequence="1"/>
+                    <EntityKey name="Emp_Name" sequence="2"/>
+                    <EntityKey name="Emp_Salary" sequence="3"/>
+                    <EntityKey name="Emp_Email" sequence="4"/>
+                </EntityReadKeysMapping>
+                <EntityFilterKeysMapping>
+                    <EntityKey name="Emp_Id" required="mandatory" mappedTo="Employee_Id"/>
+                </EntityFilterKeysMapping>
+                <LDCResponseConfigs>
+                    <ApplyLDCConfig applyAt="impl" sequence="1">
+                        <LDCSchema required="false" schemaFileName="schemaFileName"/>
+                        <LDCProjection projectionFileName="EntityTest_Test_test_QW_Swagger.json" projectionSource="swagger" required="false"/>
+                        <LDCTaxonomy required="false"/>
+                    </ApplyLDCConfig>
+                </LDCResponseConfigs>
+            </EntityAccess>
+            <EntityAccess accessMethod="GET" accessType="read" authorizedResource="getAllWmsEmployees" isCollection="true">
+                <EntityReadKeysMapping/>
+                <LDCResponseConfigs>
+                    <ApplyLDCConfig applyAt="impl" sequence="1">
+                        <LDCSchema required="false" schemaFileName="schemaFileName"/>
+                        <LDCProjection projectionFileName="EntityTest_Test_test_QW_Swagger.json" projectionSource="swagger" required="false"/>
+                        <LDCTaxonomy required="true"/>
+                    </ApplyLDCConfig>
+                </LDCResponseConfigs>
+            </EntityAccess>
+            <EntityAccess accessMethod="POST" accessType="Create" authorizedResource="insertWmsEmployee">
+                <EntityInsertKeysMapping>
+                    <EntityKey name="Emp_Name" required="mandatory"/>
+                    <EntityKey name="Emp_Salary" required="optional"/>
+                    <EntityKey name="Emp_Email" required="optional"/>
+                </EntityInsertKeysMapping>
+            </EntityAccess>
+            <EntityAccess accessMethod="POST" accessType="Update" authorizedResource="updateWmsEmployeeByIdAndName">
+                <EntityFilterKeysMapping>
+                    <EntityKey name="Emp_Id" required="mandatory"/>
+                    <EntityKey name="Emp_Name" required="optional"/>
+                </EntityFilterKeysMapping>
+                <EntityUpdateKeysMapping>
+                    <EntityKey name="Emp_Salary"/>
+                    <EntityKey name="Emp_Email"/>
+                </EntityUpdateKeysMapping>
+            </EntityAccess>
+            <EntityAccess accessMethod="GET" accessType="Delete" authorizedResource="deleteWmsEmployeeById">
+                <EntityFilterKeysMapping>
+                    <EntityKey name="Emp_Id" required="mandatory"/>
+                </EntityFilterKeysMapping>
+            </EntityAccess>
+        </EntityAccessConfig>
+    </Entity>
+</LeapDataServices>

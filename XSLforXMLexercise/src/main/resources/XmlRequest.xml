@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="XmlResponse.xsl"?>
+
+<Shipment>
+	<ShipToAddress>
+		<ToContactAndAddress>
+			<PersonName>John</PersonName>
+			<PagerNumber>125</PagerNumber>
+			<ResidentialAddressIndicator>N</ResidentialAddressIndicator>
+			<CountryName>UnitedStates</CountryName>
+			<Residential>as</Residential>
+			<TollFreePhoneNumber>88</TollFreePhoneNumber>
+			<Title>sc</Title>
+			<PostalCode>38017</PostalCode>
+			<City>Collierville</City>
+			<ContactId />
+			<EmailAddress>john@gmail.com</EmailAddress>
+			<AccountNumber>12345</AccountNumber>
+			<PhoneExtension>1235</PhoneExtension>
+			<UrbanizationCode>45</UrbanizationCode>
+			<CompanyName>Acer Technlogies</CompanyName>
+			<FaxNumber>78</FaxNumber>
+			<PhoneNumber>3124676543</PhoneNumber>
+			<StreetLine3>RecipientAddress</StreetLine3>
+			<CountryCode>US</CountryCode>
+			<StateOrProvinceCode>TN</StateOrProvinceCode>
+			<StreetLine2>InputYoscurInformation</StreetLine2>
+			<StreetLine1>New yourk</StreetLine1>
+		</ToContactAndAddress>
+	</ShipToAddress>
+	<SaturdayDelivery>N</SaturdayDelivery>
+	<LabelSpecification>
+		<ImageType>Zpl</ImageType>
+	</LabelSpecification>
+	<ShipFromAddress>
+		<FromContactAndAddress>
+			<PersonName>BrianPier 2</PersonName>
+			<PagerNumber />
+			<ResidentialAddressIndicator />
+			<CountryName />
+			<Residential />
+			<TollFreePhoneNumber />
+			<Title />
+			<PostalCode>77356</PostalCode>
+			<City>MONTGOMERY</City>
+			<ContactId />
+			<EmailAddress>john@gmail.com</EmailAddress>
+			<AccountNumber>044182491</AccountNumber>
+			<PhoneExtension />
+			<UrbanizationCode />
+			<CompanyName>ReactiveWorksItSolutionsPvt.Ltd</CompanyName>
+			<FaxNumber />
+			<PhoneNumber>998877655</PhoneNumber>
+			<StreetLine3>SenderAddress3</StreetLine3>
+			<CountryCode>US</CountryCode>
+			<StateOrProvinceCode>TX</StateOrProvinceCode>
+			<StreetLine2>MainStreet</StreetLine2>
+			<StreetLine1>148WestlakePoint</StreetLine1>
+		</FromContactAndAddress>
+		<ShipperNumber />
+	</ShipFromAddress>
+	<Packages>
+		<PackageCount>2</PackageCount>
+		<Package>
+			<Machinable>false</Machinable>
+			<Dimensions>
+				<Length>12</Length>
+				<Height>10</Height>
+				<DimensionsUnitOfMeasurement>
+					<DimensionsCode>IN</DimensionsCode>
+					<DimensionsDescription />
+				</DimensionsUnitOfMeasurement>
+				<Width>15</Width>
+				<Units>IN</Units>
+			</Dimensions>
+			<ShipDate>2018-12-01T12:00:00</ShipDate>
+			<DropOffTime>REGULAR_PICKUP</DropOffTime>
+			<PackagingType>
+				<PackagingTypeCode>Default</PackagingTypeCode>
+				<PackagingTypeDescription />
+			</PackagingType>
+			<Weight>
+				<WeightUnitOfMeasurement>
+					<WeightCode>LBS</WeightCode>
+					<WeightDescription />
+				</WeightUnitOfMeasurement>
+				<Weight>30</Weight>
+			</Weight>
+		</Package>
+		<Package>
+			<Machinable>false</Machinable>
+			<Dimensions>
+				<Length>16</Length>
+				<Height>8</Height>
+				<DimensionsUnitOfMeasurement>
+					<DimensionsCode>IN</DimensionsCode>
+					<DimensionsDescription />
+				</DimensionsUnitOfMeasurement>
+				<Width>6</Width>
+				<Units>IN</Units>
+			</Dimensions>
+			<ShipDate>2018-12-01T12:00:00</ShipDate>
+			<DropOffTime>LATE_PICKUP</DropOffTime>
+			<PackagingType>
+				<PackagingTypeCode>Default</PackagingTypeCode>
+				<PackagingTypeDescription />
+			</PackagingType>
+			<Weight>
+				<WeightUnitOfMeasurement>
+					<WeightCode>LBS</WeightCode>
+					<WeightDescription />
+				</WeightUnitOfMeasurement>
+				<Weight>30</Weight>
+			</Weight>
+		</Package>
+	</Packages>
+	<Reference>
+		<Reference3>
+			<Type />
+			<Value />
+		</Reference3>
+		<Reference4>
+			<Type />
+			<Value />
+		</Reference4>
+		<Reference1>
+			<Type />
+			<Value />
+		</Reference1>
+		<Reference2>
+			<Type />
+			<Value />
+		</Reference2>
+	</Reference>
+	<Shipper>
+		<shipper_id>55665</shipper_id>
+	</Shipper>
+	<AlternateDeliveryAddress>
+		<AltContactAndAddress>
+			<PersonName />
+			<PagerNumber />
+			<ResidentialAddressIndicator />
+			<CountryName />
+			<Residential />
+			<TollFreePhoneNumber />
+			<Title />
+			<PostalCode />
+			<City />
+			<ContactId />
+			<EmailAddress>john@gmail.com</EmailAddress>
+			<AccountNumber />
+			<PhoneExtension />
+			<UrbanizationCode />
+			<CompanyName />
+			<FaxNumber />
+			<PhoneNumber />
+			<StreetLine3 />
+			<CountryCode>US</CountryCode>
+			<StateOrProvinceCode />
+			<StreetLine2 />
+			<StreetLine1 />
+		</AltContactAndAddress>
+	</AlternateDeliveryAddress>
+	<PaymentInformation>
+		<SplitDutyVATIndicator />
+		<ShipmentCharge>
+			<Type>mijujjj</Type>
+			<BillShipper>
+				<AlternatePaymentMethod />
+				<CreditCard>
+					<Type>1</Type>
+					<Number />
+					<ExpirationDate />
+					<ShipperAddress>
+						<AddressLine />
+						<StateProvinceCode />
+						<PostalCode />
+						<City />
+						<CountryCode>US</CountryCode>
+					</ShipperAddress>
+					<SecurityCode />
+				</CreditCard>
+				<AccountNumber>104967</AccountNumber>
+			</BillShipper>
+			<ConsigneeBilledIndicator />
+			<BillThirdParty>
+				<ThirdPartyAddress>
+					<PostalCode />
+					<CountryCode>US</CountryCode>
+				</ThirdPartyAddress>
+				<AccountNumber />
+			</BillThirdParty>
+			<BillReceiver>
+				<ReceiverAddress>
+					<PostalCode />
+				</ReceiverAddress>
+				<AccountNumber />
+			</BillReceiver>
+		</ShipmentCharge>
+	</PaymentInformation>
+	<Service>
+		<HostServiceType>
+			<HostNaming>
+				<NamingType />
+				<HostSystem />
+				<HostName>
+					<DirectName />
+					<Type />
+					<AncillaryEndorsement />
+					<Service>FedEx Ground</Service>
+					<Carrier>FedEx</Carrier>
+					<HubId />
+				</HostName>
+			</HostNaming>
+		</HostServiceType>
+		<ServiceDesignation />
+		<DirectServiceType />
+	</Service>
+</Shipment>

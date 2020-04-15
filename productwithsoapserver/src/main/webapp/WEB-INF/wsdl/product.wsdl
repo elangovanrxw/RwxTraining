@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="ProductOperationService" targetNamespace="http://product.webservice.rwx.com" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://product.webservice.rwx.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <types>
+    <xsd:schema>
+ 			<xsd:import namespace="http://product.webservice.rwx.com" schemaLocation="producttypes.xsd"/>
+ 		</xsd:schema>
+  </types>
+  <message name="ProductDAOException">
+    <part name="ProductDAOException" element="tns:ProductDAOException">
+    </part>
+  </message>
+  <message name="createProductOperation">
+    <part name="params" element="tns:createProductOperation">
+    </part>
+  </message>
+  <message name="deleteProductOperationResponse">
+    <part name="params" element="tns:deleteProductOperationResponse">
+    </part>
+  </message>
+  <message name="getProductByIdOperation">
+    <part name="params" element="tns:getProductByIdOperation">
+    </part>
+  </message>
+  <message name="getProductByNameOperationResponse">
+    <part name="params" element="tns:getProductByNameOperationResponse">
+    </part>
+  </message>
+  <message name="getProductByNameOperation">
+    <part name="params" element="tns:getProductByNameOperation">
+    </part>
+  </message>
+  <message name="updateProductOperation">
+    <part name="params" element="tns:updateProductOperation">
+    </part>
+  </message>
+  <message name="updateProductOperationResponse">
+    <part name="params" element="tns:updateProductOperationResponse">
+    </part>
+  </message>
+  <message name="deleteProductOperation">
+    <part name="params" element="tns:deleteProductOperation">
+    </part>
+  </message>
+  <message name="getProductByIdOperationResponse">
+    <part name="params" element="tns:getProductByIdOperationResponse">
+    </part>
+  </message>
+  <message name="createProductOperationResponse">
+    <part name="params" element="tns:createProductOperationResponse">
+    </part>
+  </message>
+  <portType name="ProductOperation">
+    <operation name="createProductOperation">
+      <input name="createProductOperation" message="tns:createProductOperation">
+    </input>
+      <output name="createProductOperationResponse" message="tns:createProductOperationResponse">
+    </output>
+      <fault name="ProductDAOException" message="tns:ProductDAOException">
+    </fault>
+    </operation>
+    <operation name="updateProductOperation">
+      <input name="updateProductOperation" message="tns:updateProductOperation">
+    </input>
+      <output name="updateProductOperationResponse" message="tns:updateProductOperationResponse">
+    </output>
+      <fault name="ProductDAOException" message="tns:ProductDAOException">
+    </fault>
+    </operation>
+    <operation name="getProductByIdOperation">
+      <input name="getProductByIdOperation" message="tns:getProductByIdOperation">
+    </input>
+      <output name="getProductByIdOperationResponse" message="tns:getProductByIdOperationResponse">
+    </output>
+      <fault name="ProductDAOException" message="tns:ProductDAOException">
+    </fault>
+    </operation>
+    <operation name="getProductByNameOperation">
+      <input name="getProductByNameOperation" message="tns:getProductByNameOperation">
+    </input>
+      <output name="getProductByNameOperationResponse" message="tns:getProductByNameOperationResponse">
+    </output>
+      <fault name="ProductDAOException" message="tns:ProductDAOException">
+    </fault>
+    </operation>
+    <operation name="deleteProductOperation">
+      <input name="deleteProductOperation" message="tns:deleteProductOperation">
+    </input>
+      <output name="deleteProductOperationResponse" message="tns:deleteProductOperationResponse">
+    </output>
+      <fault name="ProductDAOException" message="tns:ProductDAOException">
+    </fault>
+    </operation>
+  </portType>
+  <binding name="ProductOperationServiceSOAPBinding" type="tns:ProductOperation">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="createProductOperation">
+      <input name="createProductOperation">
+        <soap:body use="literal"/>
+      </input>
+      <output name="createProductOperationResponse">
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="updateProductOperation">
+      <input name="updateProductOperation">
+        <soap:body use="literal"/>
+      </input>
+      <output name="updateProductOperationResponse">
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="getProductByIdOperation">
+      <input name="getProductByIdOperation">
+        <soap:body use="literal"/>
+      </input>
+      <output name="getProductByIdOperationResponse">
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="getProductByNameOperation">
+      <input name="getProductByNameOperation">
+        <soap:body use="literal"/>
+      </input>
+      <output name="getProductByNameOperationResponse">
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+    <operation name="deleteProductOperation">
+      <input name="deleteProductOperation">
+        <soap:body use="literal"/>
+      </input>
+      <output name="deleteProductOperationResponse">
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="ProductOperationService">
+    <port name="ProductOperation" binding="tns:ProductOperationServiceSOAPBinding">
+      <soap:address location="http://localhost:8090/productwithsoapserver/services/ProductOperation"/>
+    </port>
+  </service>
+</definitions>

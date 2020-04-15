@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="UserOperationService" targetNamespace="http://userdao.rxwwebservice.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://userdao.rxwwebservice.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema">
+  <import namespace="http://userdao.rxwwebservice.com" schemaLocation="useroperationimpl_schema1.xsd"/>
+</schema>
+  </wsdl:types>
+  <wsdl:message name="createNewUserOperation">
+    <wsdl:part name="parameters" element="tns:createNewUserOperation">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserByUserIdOperation">
+    <wsdl:part name="parameters" element="tns:getUserByUserIdOperation">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteUserByUserIdOperation">
+    <wsdl:part name="parameters" element="tns:deleteUserByUserIdOperation">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createNewUserOperationResponse">
+    <wsdl:part name="parameters" element="tns:createNewUserOperationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateExistingUserOperationResponse">
+    <wsdl:part name="parameters" element="tns:updateExistingUserOperationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="UserDAOException">
+    <wsdl:part name="UserDAOException" element="tns:UserDAOException">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserByUserIdOperationResponse">
+    <wsdl:part name="parameters" element="tns:getUserByUserIdOperationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="deleteUserByUserIdOperationResponse">
+    <wsdl:part name="parameters" element="tns:deleteUserByUserIdOperationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserByUserNameOperation">
+    <wsdl:part name="parameters" element="tns:getUserByUserNameOperation">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getUserByUserNameOperationResponse">
+    <wsdl:part name="parameters" element="tns:getUserByUserNameOperationResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="updateExistingUserOperation">
+    <wsdl:part name="parameters" element="tns:updateExistingUserOperation">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="UserOperation">
+    <wsdl:operation name="createNewUserOperation">
+      <wsdl:input name="createNewUserOperation" message="tns:createNewUserOperation">
+    </wsdl:input>
+      <wsdl:output name="createNewUserOperationResponse" message="tns:createNewUserOperationResponse">
+    </wsdl:output>
+      <wsdl:fault name="UserDAOException" message="tns:UserDAOException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserByUserIdOperation">
+      <wsdl:input name="getUserByUserIdOperation" message="tns:getUserByUserIdOperation">
+    </wsdl:input>
+      <wsdl:output name="getUserByUserIdOperationResponse" message="tns:getUserByUserIdOperationResponse">
+    </wsdl:output>
+      <wsdl:fault name="UserDAOException" message="tns:UserDAOException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUserByUserIdOperation">
+      <wsdl:input name="deleteUserByUserIdOperation" message="tns:deleteUserByUserIdOperation">
+    </wsdl:input>
+      <wsdl:output name="deleteUserByUserIdOperationResponse" message="tns:deleteUserByUserIdOperationResponse">
+    </wsdl:output>
+      <wsdl:fault name="UserDAOException" message="tns:UserDAOException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserByUserNameOperation">
+      <wsdl:input name="getUserByUserNameOperation" message="tns:getUserByUserNameOperation">
+    </wsdl:input>
+      <wsdl:output name="getUserByUserNameOperationResponse" message="tns:getUserByUserNameOperationResponse">
+    </wsdl:output>
+      <wsdl:fault name="UserDAOException" message="tns:UserDAOException">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateExistingUserOperation">
+      <wsdl:input name="updateExistingUserOperation" message="tns:updateExistingUserOperation">
+    </wsdl:input>
+      <wsdl:output name="updateExistingUserOperationResponse" message="tns:updateExistingUserOperationResponse">
+    </wsdl:output>
+      <wsdl:fault name="UserDAOException" message="tns:UserDAOException">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="UserOperationServiceSoapBinding" type="tns:UserOperation">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="createNewUserOperation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createNewUserOperation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createNewUserOperationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="UserDAOException">
+        <soap:fault name="UserDAOException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserByUserIdOperation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getUserByUserIdOperation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getUserByUserIdOperationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="UserDAOException">
+        <soap:fault name="UserDAOException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUserByUserIdOperation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="deleteUserByUserIdOperation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="deleteUserByUserIdOperationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="UserDAOException">
+        <soap:fault name="UserDAOException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="getUserByUserNameOperation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getUserByUserNameOperation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getUserByUserNameOperationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="UserDAOException">
+        <soap:fault name="UserDAOException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="updateExistingUserOperation">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="updateExistingUserOperation">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="updateExistingUserOperationResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="UserDAOException">
+        <soap:fault name="UserDAOException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="UserOperationService">
+    <wsdl:port name="UserOperationImplPort" binding="tns:UserOperationServiceSoapBinding">
+      <soap:address location="http://localhost:8090/usercrudsoap/services"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

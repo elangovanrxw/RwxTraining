@@ -1,0 +1,690 @@
+2020-01-16 14:29:04 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 14:29:04 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 14:29:53 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 14:29:54 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 15:34:10 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 15:34:10 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 15:36:12 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 15:36:12 ERROR JAXBOperations  :40  - Exception occured : 
+com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+@XmlElementWrapper is only allowed on a collection property but "com.reactiveworks.jaxbexercise.bean.Entity.entityField" is not a collection property.
+	this problem is related to the following location:
+		at @javax.xml.bind.annotation.XmlElementWrapper(name=EntityFields, namespace=##default, required=false, nillable=false)
+		at public com.reactiveworks.jaxbexercise.bean.EntityField com.reactiveworks.jaxbexercise.bean.Entity.getEntityField()
+		at com.reactiveworks.jaxbexercise.bean.Entity
+		at public com.reactiveworks.jaxbexercise.bean.Entity com.reactiveworks.jaxbexercise.bean.LeapDataServices.getEntity()
+		at com.reactiveworks.jaxbexercise.bean.LeapDataServices
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(Unknown Source)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javax.xml.bind.ContextFinder.newInstance(Unknown Source)
+	at javax.xml.bind.ContextFinder.newInstance(Unknown Source)
+	at javax.xml.bind.ContextFinder.find(Unknown Source)
+	at javax.xml.bind.JAXBContext.newInstance(Unknown Source)
+	at javax.xml.bind.JAXBContext.newInstance(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doMarshalling(JAXBOperations.java:31)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:11)
+2020-01-16 15:38:09 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 15:38:09 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 15:38:33 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 15:38:33 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 15:39:10 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 15:39:11 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 15:39:48 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 15:39:48 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 18:11:50 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 18:11:50 ERROR JAXBOperations  :40  - Exception occured : 
+com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException: 1 counts of IllegalAnnotationExceptions
+@XmlElementWrapper is only allowed on a collection property but "com.reactiveworks.jaxbexercise.bean.Entity.entityField" is not a collection property.
+	this problem is related to the following location:
+		at @javax.xml.bind.annotation.XmlElementWrapper(name=EntityFields, namespace=##default, required=false, nillable=false)
+		at public com.reactiveworks.jaxbexercise.bean.EntityFields com.reactiveworks.jaxbexercise.bean.Entity.getEntityField()
+		at com.reactiveworks.jaxbexercise.bean.Entity
+		at public java.util.List com.reactiveworks.jaxbexercise.bean.LeapDataServices.getEntity()
+		at com.reactiveworks.jaxbexercise.bean.LeapDataServices
+
+	at com.sun.xml.internal.bind.v2.runtime.IllegalAnnotationsException$Builder.check(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.getTypeInfoSet(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl.<init>(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(Unknown Source)
+	at com.sun.xml.internal.bind.v2.ContextFactory.createContext(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at javax.xml.bind.ContextFinder.newInstance(Unknown Source)
+	at javax.xml.bind.ContextFinder.newInstance(Unknown Source)
+	at javax.xml.bind.ContextFinder.find(Unknown Source)
+	at javax.xml.bind.JAXBContext.newInstance(Unknown Source)
+	at javax.xml.bind.JAXBContext.newInstance(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doMarshalling(JAXBOperations.java:31)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:13)
+2020-01-16 18:12:41 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 18:12:41 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 18:41:34 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 18:41:35 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 18:52:49 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-16 18:52:49 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-16 19:08:32 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-16 19:08:32 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 09:55:04 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 09:55:04 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:03:55 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:03:55 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:23:11 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:23:11 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:24:10 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:24:10 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:28:07 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:28:07 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:42:44 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:42:44 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:47:07 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:47:07 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:15)
+2020-01-17 10:50:19 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:50:19 ERROR JAXBOperations  :63  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:56)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:16)
+2020-01-17 10:52:44 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:52:44 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 10:52:44 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:16)
+2020-01-17 10:58:52 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 10:58:52 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 10:58:52 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are (none)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:16)
+2020-01-17 11:05:36 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:05:36 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:07:39 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:07:39 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:09:14 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:09:14 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:13:31 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:13:31 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:19:42 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:19:42 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:23:29 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:23:29 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:23:30 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 11:24:24 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:24:24 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:24:24 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 11:24:24 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 11:24:24 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 11:27:03 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:27:03 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:27:04 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 11:27:04 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 11:27:04 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 11:30:19 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:30:19 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:30:19 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 11:30:19 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 11:30:19 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 11:31:55 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:31:55 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:31:55 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 11:31:55 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 11:31:55 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 11:36:08 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 11:36:08 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 11:36:09 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 11:36:09 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 11:36:09 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:10:53 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:10:53 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:10:53 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are <{}ApplyLDCConfig>,<{http://www.w3.org/2001/XMLSchema-instance}Attribute>,<{http://www.w3.org/2001/XMLSchema-instance}Entity>,<{http://www.w3.org/2001/XMLSchema-instance}EntityAccess>,<{http://www.w3.org/2001/XMLSchema-instance}EntityAccessConfig>,<{http://www.w3.org/2001/XMLSchema-instance}EntityCollection>,<{http://www.w3.org/2001/XMLSchema-instance}EntityColumn>,<{http://www.w3.org/2001/XMLSchema-instance}EntityColumns>,<{http://www.w3.org/2001/XMLSchema-instance}EntityField>,<{http://www.w3.org/2001/XMLSchema-instance}EntityFields>,<{}EntityFilterKeysMapping>,<{http://www.w3.org/2001/XMLSchema-instance}EntityIndex>,<{http://www.w3.org/2001/XMLSchema-instance}EntityIndexs>,<{http://www.w3.org/2001/XMLSchema-instance}EntityKey>,<{}EntityReadKeysMapping>,<{http://www.w3.org/2001/XMLSchema-instance}EntityTable>,<{}LDCProjection>,<{}LDCResponseConfigs>,<{}LDCSchema>,<{}LDCTaxonomy>,<{http://www.w3.org/2001/XMLSchema-instance}LeapDataServices>
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:18)
+2020-01-17 12:10:53 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:14:05 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:14:05 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:14:06 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:14:06 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:14:06 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:20:51 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:20:51 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:20:51 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"", local:"LeapDataServices"). Expected elements are <{}ApplyLDCConfig>,<{}Attribute>,<{}Entity>,<{}EntityAccess>,<{}EntityAccessConfig>,<{}EntityCollection>,<{}EntityColumn>,<{}EntityColumns>,<{}EntityField>,<{}EntityFields>,<{}EntityFilterKeysMapping>,<{}EntityIndex>,<{}EntityIndexs>,<{}EntityKey>,<{}EntityReadKeysMapping>,<{}EntityTable>,<{}LDCProjection>,<{}LDCResponseConfigs>,<{}LDCSchema>,<{}LDCTaxonomy>,<{http://www.w3.org/2001/XMLSchema-instance}LeapDataServices>
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:18)
+2020-01-17 12:20:51 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:21:50 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:21:50 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:21:51 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:21:51 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:21:51 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:23:14 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:23:14 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:23:15 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:23:15 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:23:15 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:24:55 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:24:55 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:24:56 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:24:56 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:24:56 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:26:18 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:26:18 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:26:18 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:26:18 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:26:18 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:32:31 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:32:31 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:32:31 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:32:31 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:32:32 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:34:00 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:34:00 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:34:00 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:34:00 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:34:00 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:37:07 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:37:07 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:37:07 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:37:07 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:37:07 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:46:25 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:46:25 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:46:26 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"http://www.example.org/entity", local:"LeapDataServices"). Expected elements are <{}ApplyLDCConfig>,<{}Attribute>,<{}Entity>,<{}EntityAccess>,<{}EntityAccessConfig>,<{}EntityCollection>,<{}EntityColumn>,<{}EntityColumns>,<{}EntityField>,<{}EntityFields>,<{}EntityFilterKeysMapping>,<{}EntityIndex>,<{}EntityIndexs>,<{}EntityKey>,<{}EntityReadKeysMapping>,<{}EntityTable>,<{}LDCProjection>,<{}LDCResponseConfigs>,<{}LDCSchema>,<{}LDCTaxonomy>,<{}LeapDataServices>
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:18)
+2020-01-17 12:46:26 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:48:31 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:48:31 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:48:32 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:48:32 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:48:32 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:49:14 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:49:14 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:49:15 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"http://www.example.org/entity", local:"LeapDataServices"). Expected elements are <{}ApplyLDCConfig>,<{}Attribute>,<{}Entity>,<{}EntityAccess>,<{}EntityAccessConfig>,<{}EntityCollection>,<{}EntityColumn>,<{}EntityColumns>,<{}EntityField>,<{}EntityFields>,<{}EntityFilterKeysMapping>,<{}EntityIndex>,<{}EntityIndexs>,<{}EntityKey>,<{}EntityReadKeysMapping>,<{}EntityTable>,<{}LDCProjection>,<{}LDCResponseConfigs>,<{}LDCSchema>,<{}LDCTaxonomy>,<{}LeapDataServices>
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:18)
+2020-01-17 12:49:15 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:49:44 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:49:44 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:49:44 ERROR JAXBOperations  :64  - Exception occured : 
+javax.xml.bind.UnmarshalException: unexpected element (uri:"http://www.example.org/entity", local:"LeapDataServices"). Expected elements are <{}ApplyLDCConfig>,<{}Attribute>,<{}Entity>,<{}EntityAccess>,<{}EntityAccessConfig>,<{}EntityCollection>,<{}EntityColumn>,<{}EntityColumns>,<{}EntityField>,<{}EntityFields>,<{}EntityFilterKeysMapping>,<{}EntityIndex>,<{}EntityIndexs>,<{}EntityKey>,<{}EntityReadKeysMapping>,<{}EntityTable>,<{}LDCProjection>,<{}LDCResponseConfigs>,<{}LDCSchema>,<{}LDCTaxonomy>,<{}LeapDataServices>
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.handleEvent(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportError(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.Loader.reportUnexpectedChildElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext$DefaultRootLoader.childElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext._startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallingContext.startElement(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.SAXConnector.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl$NSContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:18)
+2020-01-17 12:49:44 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:51:07 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:51:07 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:51:08 DEBUG JAXBOperations  :58  - Successfully Converted as object...
+2020-01-17 12:51:08 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:51:08 DEBUG JAXBOperations  :35  - Successfully Converted as file...
+2020-01-17 12:54:13 DEBUG JAXBOperations  :50  - Converting XML File to object ...
+2020-01-17 12:54:13 DEBUG JAXBOperations  :52  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:54:14 ERROR JAXBOperations  :65  - Exception occured : 
+javax.xml.bind.PropertyException: name: jaxb.noNamespaceSchemaLocation value: entity.xsd
+	at javax.xml.bind.helpers.AbstractUnmarshallerImpl.setProperty(Unknown Source)
+	at com.sun.xml.internal.bind.v2.runtime.unmarshaller.UnmarshallerImpl.setProperty(Unknown Source)
+	at com.reactiveworks.jaxbexercise.jaxb.JAXBOperations.doUnmarshalling(JAXBOperations.java:57)
+	at com.reactiveworks.jaxbexercise.main.LeapDataServicesMain.main(LeapDataServicesMain.java:18)
+2020-01-17 12:54:14 DEBUG JAXBOperations  :27  - Converting Object to XML File ...
+2020-01-17 12:59:12 DEBUG JAXBOperations  :53  - Converting XML File to object ...
+2020-01-17 12:59:12 DEBUG JAXBOperations  :55  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 12:59:12 DEBUG JAXBOperations  :61  - Successfully Converted as object...
+2020-01-17 12:59:12 DEBUG JAXBOperations  :28  - Converting Object to XML File ...
+2020-01-17 12:59:12 DEBUG JAXBOperations  :38  - Successfully Converted as file...
+2020-01-17 13:00:20 DEBUG JAXBOperations  :53  - Converting XML File to object ...
+2020-01-17 13:00:20 DEBUG JAXBOperations  :55  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 13:00:20 DEBUG JAXBOperations  :61  - Successfully Converted as object...
+2020-01-17 13:00:20 DEBUG JAXBOperations  :28  - Converting Object to XML File ...
+2020-01-17 13:00:20 DEBUG JAXBOperations  :38  - Successfully Converted as file...
+2020-01-17 13:06:54 DEBUG JAXBOperations  :53  - Converting XML File to object ...
+2020-01-17 13:06:54 DEBUG JAXBOperations  :55  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 13:06:54 DEBUG JAXBOperations  :61  - Successfully Converted as object...
+2020-01-17 13:06:54 DEBUG JAXBOperations  :28  - Converting Object to XML File ...
+2020-01-17 13:06:54 DEBUG JAXBOperations  :38  - Successfully Converted as file...
+2020-01-17 16:17:32 DEBUG JAXBOperations  :53  - Converting XML File to object ...
+2020-01-17 16:17:32 DEBUG JAXBOperations  :55  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-17 16:17:33 DEBUG JAXBOperations  :61  - Successfully Converted as object...
+2020-01-17 16:17:33 DEBUG JAXBOperations  :28  - Converting Object to XML File ...
+2020-01-17 16:17:33 DEBUG JAXBOperations  :38  - Successfully Converted as file...
+2020-01-18 10:33:33 DEBUG JAXBUtility     :53  - Converting XML File to object ...
+2020-01-18 10:33:33 DEBUG JAXBUtility     :55  - G:\EclipseIDE\JAVA_RW\jaxbexercise\Entity.xml
+2020-01-18 10:33:34 DEBUG JAXBUtility     :61  - Successfully Converted as object...
+2020-01-18 10:33:34 DEBUG JAXBUtility     :28  - Converting Object to XML File ...
+2020-01-18 10:33:34 DEBUG JAXBUtility     :38  - Successfully Converted as file...

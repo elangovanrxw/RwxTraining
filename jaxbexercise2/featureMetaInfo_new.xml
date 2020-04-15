@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Feature-Metainfo xmlns:fms="http://attunedlabs.com/internal/FeatureMetaInfoSupporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" productVersion="WMS2.0" xsi:noNamespaceSchemaLocation="featureMetaInfo.xsd">
+    <FeatureGroup>
+        <Name>ddlUtilGroup</Name>
+        <Features>
+            <Feature vendorName="attunedlabs" vendorVersion="1.0" implementationName="attunedlabs">
+                <Name>ddl</Name>
+                <FeatureImplementations>
+                    <FeatureImplementation resourceName="sac-key2act-globalFeatureservice.xml"/>
+                </FeatureImplementations>
+                <StaticFileConfiguration>
+                    <ConfigFile filePath="/home/paul/XSLTFiles/" fileName="ftlSubjectTemplate.ftl"/>
+                </StaticFileConfiguration>
+                <DBConfiguration>
+                    <database name="leap_new">
+                        <table name="author">
+                            <column name="author_id" type="INTEGER" primaryKey="true" required="true" autoIncrement="false"/>
+                            <column name="name" type="VARCHAR" required="true" size="50"/>
+                            <column name="surName" type="VARCHAR" required="false" size="50"/>
+                            <column name="organization" type="VARCHAR" required="false" size="50"/>
+                        </table>
+                        <table name="book">
+                            <column name="book_id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true"/>
+                            <column name="author_id" type="INTEGER" required="true"/>
+                            <column name="title" type="VARCHAR" required="true" size="255"/>
+                        </table>
+                    </database>
+                </DBConfiguration>
+            </Feature>
+            <Feature vendorName="attunedlabs" vendorVersion="1.0" implementationName="attunedlabs">
+                <Name>ddl</Name>
+                <FeatureImplementations>
+                    <FeatureImplementation resourceName="sac-key2act-globalFeatureservice.xml"/>
+                </FeatureImplementations>
+                <StaticFileConfiguration>
+                    <ConfigFile filePath="/home/paul/XSLTFiles/" fileName="ftlSubjectTemplate.ftl"/>
+                </StaticFileConfiguration>
+                <DBConfiguration>
+                    <database name="leap_new">
+                        <table name="author">
+                            <column name="author_id" type="INTEGER" primaryKey="true" required="true" autoIncrement="false"/>
+                            <column name="name" type="VARCHAR" required="true" size="50"/>
+                            <column name="surName" type="VARCHAR" required="false" size="50"/>
+                            <column name="organization" type="VARCHAR" required="false" size="50"/>
+                        </table>
+                        <table name="book">
+                            <column name="book_id" type="INTEGER" primaryKey="true" required="true" autoIncrement="true"/>
+                            <column name="author_id" type="INTEGER" required="true"/>
+                            <column name="title" type="VARCHAR" required="true" size="255"/>
+                        </table>
+                    </database>
+                </DBConfiguration>
+            </Feature>
+        </Features>
+    </FeatureGroup>
+</Feature-Metainfo>

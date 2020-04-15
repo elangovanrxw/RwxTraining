@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fms="http://attunedlabs.com/internal/FeatureMetaInfoSupporting">
+
+  <xs:element name="Feature-Metainfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="FeatureGroup">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string"/>
+              <xs:element name="Features">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Feature" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Name" type="xs:string"/>
+                          <xs:element name="FeatureImplementations">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="FeatureImplementation" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence/>
+                                    <xs:attribute name="resourceName" type="xs:string" use="required"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="StaticFileConfiguration">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ConfigFile">
+                                  <xs:complexType>
+                                    <xs:sequence/>
+                                    <xs:attribute name="filePath" type="xs:string" use="required"/>
+                                    <xs:attribute name="fileName" type="xs:string" use="required"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="DBConfiguration">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="database">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="table" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="column" maxOccurs="unbounded">
+                                              <xs:complexType>
+                                                <xs:sequence/>
+                                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                                <xs:attribute name="type" type="xs:string" use="required"/>
+                                                <xs:attribute name="primaryKey" type="xs:boolean"/>
+                                                <xs:attribute name="required" type="xs:boolean"/>
+                                                <xs:attribute name="autoIncrement" type="xs:boolean"/>
+                                                <xs:attribute name="size" type="xs:int"/>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="name" type="xs:string" use="required"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="name" type="xs:string" use="required"/>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="vendorName" type="xs:string" use="required"/>
+                        <xs:attribute name="vendorVersion" type="xs:float" use="required"/>
+                        <xs:attribute name="implementationName" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="productVersion" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

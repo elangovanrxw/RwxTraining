@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="true"
+	xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+	<appender name="file" class="org.apache.log4j.RollingFileAppender">
+		<param name="append" value="true" />
+		<param name="maxFileSize" value="25KB" />
+		<param name="maxBackupIndex" value="5" />
+		<param name="file"
+			value="G:\\EclipseIDE\\productservice\\Logs\\LogDetails.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{yyyy-MM-dd HH:mm:ss} %-5p %-16c{1}:%-3L - %m%n" />
+		</layout>
+	</appender>
+
+	<appender name="file1" class="org.apache.log4j.RollingFileAppender">
+		<param name="append" value="true" />
+		<param name="maxFileSize" value="15KB" />
+		<param name="maxBackupIndex" value="5" />
+		<param name="file"
+			value="G:\\EclipseIDE\\productservice\\Logs\\TestingLogDetails.log" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"
+				value="%d{yyyy-MM-dd HH:mm:ss} %-5p %-16c{1}:%-3L - %m%n" />
+		</layout>
+	</appender>
+
+	<logger name="com.rxw.product.productservice">
+		<level value="TRACE" />
+		<appender-ref ref="file1" />
+	</logger>
+	<root>
+		<level value="DEBUG" />
+		<appender-ref ref="file" />
+	</root>
+
+</log4j:configuration>

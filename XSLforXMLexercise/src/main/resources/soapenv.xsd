@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://schemas.xmlsoap.org/soap/envelope/"  
+		xmlns:v17="http://fedex.com/ws/ship/v17" 
+		elementFormDefault="qualified">
+		
+<import namespace="http://fedex.com/ws/ship/v17" schemaLocation="v17.xsd" />
+		
+<element name="Envelope">
+	<complexType>
+		<sequence>
+			<element name="Header" minOccurs="0" maxOccurs="1">
+				<complexType mixed="true">
+						<simpleContent>
+							<extension base="string" />
+						</simpleContent>
+				</complexType>
+			</element>
+			<element name="Body" minOccurs="1" maxOccurs="1">
+				<complexType>
+					<sequence>
+						<element ref="v17:ProcessShipmentRequest" minOccurs="0" maxOccurs="1"/>
+						<element ref="v17:ProcessShipmentReply" minOccurs="0" maxOccurs="1"/>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

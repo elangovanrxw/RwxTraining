@@ -1,0 +1,19 @@
+{
+	"type":"object",
+	"properties":{
+		"entityField": {
+			"type":"array",
+			"items":{
+				"type":"object",
+				"properties":{
+					"name":{"type":"string"},
+					"type":{"type":"string"}
+					}
+				},
+				"additionalProperties":false,
+				"required":["name","string"]
+			}
+		},
+	"additionalProperties":false,
+	"required":["entityField"]		
+}

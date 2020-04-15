@@ -1,0 +1,5 @@
+com.rxw.product.domain
+com.rxw.product.exception
+com.rxw.product.productservice
+com.rxw.product.reader
+com.rxw.product.service
